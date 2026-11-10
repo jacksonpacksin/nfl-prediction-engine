@@ -8,7 +8,7 @@ from pathlib import Path
 from datetime import timedelta
 from market_ev import load_jsonl,parse_utc
 
-def availability(forecast,injuries,starters,max_age_hours=72):
+def availability(forecast,injuries,starters,max_age_hours=72,depth_charts=None):
     kickoff=parse_utc(forecast["kickoff_utc"])
     created=parse_utc(forecast["forecast_created_utc"])
     pid=forecast["player_id"]
@@ -26,7 +26,14 @@ def availability(forecast,injuries,starters,max_age_hours=72):
               and parse_utc(r["confirmed_utc"])<=created and r.get("source_url")]
     if not starter and provider:
         starter=max(provider,key=lambda r:r["captured_utc"])
-    return {"player_id":pid,"game_id":forecast["game_id"],"forecast_created_utc":forecast["forecast_created_utc"],
+    depth=[r for r in (depth_charts or []) if r.get("player_id")==pid
+           and r.get("team")==forecast.get("team") and r.get("captured_utc")
+           and parse_utc(r["captured_utc"])<=created]
+    depth_row=max(depth,key=lambda r:r["captured_utc"]) if depth else None
+    return {"depth_chart_status":"PROJECTED_ONLY" if depth_row else "UNKNOWN",
+        "depth_chart_rank":depth_row.get("depth_rank") if depth_row else None,
+        "depth_chart_captured_utc":depth_row.get("captured_utc") if depth_row else None,
+        "player_id":pid,"game_id":forecast["game_id"],"forecast_created_utc":forecast["forecast_created_utc"],
         "starter_status":"CONFIRMED_AS_OF_FORECAST" if starter else "UNVERIFIED",
         "starter_source":starter.get("source_url") if starter else None,
         "injury_status":"SOURCE_CAPTURED_AS_OF_FORECAST" if latest else "UNKNOWN",
@@ -47,6 +54,9 @@ def run():
     if provider_file.exists():
         try:starters.extend(json.loads(provider_file.read_text()))
         except (ValueError,OSError):pass
+    depth_file=root/"free_depth_chart_qbs.json"
+    try:depth=json.loads(depth_file.read_text()) if depth_file.exists() else []
+    except (ValueError,OSError):depth=[]
     forecasts=load_jsonl(root/"pregame_forecast_snapshots.jsonl")
     injuries=load_jsonl(root/"injury_snapshots.jsonl")
     # Only the latest capture for each unique pregame forecast model/player/game.
@@ -54,9 +64,10 @@ def run():
     for f in forecasts:
         k=(f["game_id"],f["player_id"],f["model_id"])
         if k not in latest or f["forecast_created_utc"]>latest[k]["forecast_created_utc"]:latest[k]=f
-    results=[availability(f,injuries,starters) for f in latest.values()]
+    results=[availability(f,injuries,starters,depth_charts=depth) for f in latest.values()]
     summary={"status":"EVIDENCE_ONLY","checked":len(results),
              "starter_confirmed":sum(x["starter_status"]=="CONFIRMED_AS_OF_FORECAST" for x in results),
+             "depth_chart_candidates":sum(x["depth_chart_status"]=="PROJECTED_ONLY" for x in results),
              "injury_captured":sum(x["injury_status"]=="SOURCE_CAPTURED_AS_OF_FORECAST" for x in results),
              "both_evidence_types":sum(x["actionable"] for x in results),
              "records":results[:500],
