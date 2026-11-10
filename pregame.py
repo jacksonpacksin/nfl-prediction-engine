@@ -10,6 +10,7 @@ import statistics
 from collections import defaultdict
 from datetime import datetime,timezone,timedelta
 from pathlib import Path
+from zoneinfo import ZoneInfo
 import nflreadpy as nfl
 from market_capture import append_jsonl,now_utc
 from validation_v05 import normal_survival
@@ -54,10 +55,14 @@ def upcoming(now,days=8):
         # gametime from nflverse is local eastern; use timezone-aware kickoff where available.
         # Avoid assuming a timezone: prefer an ISO timestamp provided by schedule.
         timestamp=g.get("start_time") or g.get("kickoff")
-        if not timestamp:continue
         try:
-            dt=datetime.fromisoformat(str(timestamp).replace("Z","+00:00"))
-            if dt.tzinfo is None:continue
+            if timestamp:
+                dt=datetime.fromisoformat(str(timestamp).replace("Z","+00:00"))
+                if dt.tzinfo is None:continue
+            elif kickoff and date:
+                # nflverse schedule 'gametime' is US Eastern local clock time.
+                dt=datetime.fromisoformat(date+"T"+str(kickoff)).replace(tzinfo=ZoneInfo("America/New_York"))
+            else:continue
             dt=dt.astimezone(timezone.utc)
         except (ValueError,TypeError):continue
         if now<dt<=now+timedelta(days=days):upcoming.append((g,dt))
