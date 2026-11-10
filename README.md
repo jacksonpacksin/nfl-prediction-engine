@@ -57,3 +57,15 @@ The existing workflow now also runs `market_capture.py` and `market_ev.py` after
 **Caveats:** Capture cadence is 3 times per day, NOT live streaming. Large injuries JSONL files may make Git history grow. This system does not automatically place orders. Do not interpret a positive estimated EV as an established market edge or a guaranteed fill.
 
 Sources: https://nflreadpy.nflverse.com/api/load_functions/ ; https://docs.kalshi.com/ ; https://kalshi.com/fee-schedule
+
+## v0.7: automated candidate discovery and prospective research
+
+Scheduled workflow now also runs:
+- `market_discovery.py`: scans up to 3,000 open Kalshi markets, screens NFL passing-yard candidates, saves timestamped titles/rules and up to 40 top-of-book snapshots. **Discovery does NOT mean settlement rules are verified.** Results are `data/kalshi_discovered_candidates.jsonl` and `data/discovery_status.json`. The page cap can omit contracts.
+- `pregame.py`: generates timestamped, append-only champion and experimental workload/matchup QB passing-yard forecasts for future games. Uses prior completed games, rolling passing attempts and passing yards, and opponent prior allowed passing yards. Results: `data/pregame_forecast_snapshots.jsonl` and `data/pregame_status.json`. **Starter and injury availability are NOT verified**, and the experimental model has NOT won a prospective backtest. If no upcoming kickoff is resolvable, it records zero rather than inventing a date.
+- `execution_validation.py`: depth-aware paper taker fills (against opposite-side bids), missing-liquidity NO_FILL, fee and slippage estimates, and player-game-clustered bootstrap comparison when 30+ independently verified settled player-games have been collected. Output `data/edge_validation_status.json`. **No settled, mapped historical market archive is currently generated**; a real comparison remains blocked.
+- `test_research_v07.py`: five new safety and modeling tests, executed on every refresh.
+
+**Critical outstanding work:** Automatically verifying Kalshi contract settlement rules and mapping a ticker to the correct GSIS player/game/threshold is not solved by keyword discovery. Captured injuries are not yet linked into the forecasting features; no assumption of player availability should be made. Forecasts are not yet linked to the Kalshi quote archive, and actual settled contract outcomes must be independently reconciled. Therefore no claim of market outperformance or profitability is warranted.
+
+**Research-only.** No live orders, no inferred backfilled prices, no fabricated pregame evidence. Run Actions → NFL data refresh and check the new stages and status JSON files before treating this version as operational.
