@@ -20,7 +20,7 @@ jobs:
           cache: pip
       - run: pip install -r requirements.txt
       - name: Test v0.5 validation logic
-        run: python -m unittest -v test_validation_v05.py test_market.py test_research_v07.py test_reconciliation.py test_identity_capture.py test_external_sources.py
+        run: python -m unittest -v test_validation_v05.py test_market.py test_research_v07.py test_reconciliation.py test_identity_capture.py test_external_sources.py test_free_sources.py
       - name: Download and backtest NFL data
         run: python pipeline.py
       - name: Benchmark and validate v0.5 models
@@ -35,6 +35,8 @@ jobs:
         run: python pregame.py
       - name: Match candidate market names to GSIS player IDs
         run: python identity_matching.py
+      - name: Capture free projected QB depth charts
+        run: python free_depth_charts.py
       - name: Fetch independently sourced starter confirmations
         env:
           NFL_STARTER_FEED_URL: ${{ vars.NFL_STARTER_FEED_URL }}
