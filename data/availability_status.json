@@ -8,7 +8,7 @@
     {
       "player_id": "00-0031503",
       "game_id": "2026_10_WAS_NYG",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -22,7 +22,7 @@
     {
       "player_id": "00-0031503",
       "game_id": "2026_10_WAS_NYG",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -36,7 +36,7 @@
     {
       "player_id": "00-0029263",
       "game_id": "2026_10_WAS_NYG",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -50,7 +50,7 @@
     {
       "player_id": "00-0029263",
       "game_id": "2026_10_WAS_NYG",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -64,7 +64,7 @@
     {
       "player_id": "00-0034177",
       "game_id": "2026_10_WAS_NYG",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -78,7 +78,7 @@
     {
       "player_id": "00-0034177",
       "game_id": "2026_10_WAS_NYG",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -92,7 +92,7 @@
     {
       "player_id": "00-0039923",
       "game_id": "2026_10_WAS_NYG",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -106,7 +106,7 @@
     {
       "player_id": "00-0039923",
       "game_id": "2026_10_WAS_NYG",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -120,13 +120,13 @@
     {
       "player_id": "00-0040691",
       "game_id": "2026_10_WAS_NYG",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "SOURCE_CAPTURED_AS_OF_FORECAST",
       "injury_report_status": null,
       "injury_practice_status": "Did Not Participate In Practice",
-      "injury_source_capture_utc": "2026-11-10T23:00:00.241633+00:00",
+      "injury_source_capture_utc": "2026-11-10T23:02:53.042071+00:00",
       "injury_red_flag": false,
       "actionable": false,
       "warning": "Source report and starter attestation are not guarantees of participation."
@@ -134,13 +134,13 @@
     {
       "player_id": "00-0040691",
       "game_id": "2026_10_WAS_NYG",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "SOURCE_CAPTURED_AS_OF_FORECAST",
       "injury_report_status": null,
       "injury_practice_status": "Did Not Participate In Practice",
-      "injury_source_capture_utc": "2026-11-10T23:00:00.241633+00:00",
+      "injury_source_capture_utc": "2026-11-10T23:02:53.042071+00:00",
       "injury_red_flag": false,
       "actionable": false,
       "warning": "Source report and starter attestation are not guarantees of participation."
@@ -148,13 +148,13 @@
     {
       "player_id": "00-0032268",
       "game_id": "2026_10_WAS_NYG",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "SOURCE_CAPTURED_AS_OF_FORECAST",
       "injury_report_status": null,
       "injury_practice_status": "Full Participation in Practice",
-      "injury_source_capture_utc": "2026-11-10T23:00:00.241633+00:00",
+      "injury_source_capture_utc": "2026-11-10T23:02:53.042071+00:00",
       "injury_red_flag": false,
       "actionable": false,
       "warning": "Source report and starter attestation are not guarantees of participation."
@@ -162,13 +162,13 @@
     {
       "player_id": "00-0032268",
       "game_id": "2026_10_WAS_NYG",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "SOURCE_CAPTURED_AS_OF_FORECAST",
       "injury_report_status": null,
       "injury_practice_status": "Full Participation in Practice",
-      "injury_source_capture_utc": "2026-11-10T23:00:00.241633+00:00",
+      "injury_source_capture_utc": "2026-11-10T23:02:53.042071+00:00",
       "injury_red_flag": false,
       "actionable": false,
       "warning": "Source report and starter attestation are not guarantees of participation."
@@ -176,7 +176,7 @@
     {
       "player_id": "00-0026300",
       "game_id": "2026_10_WAS_NYG",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -190,7 +190,7 @@
     {
       "player_id": "00-0026300",
       "game_id": "2026_10_WAS_NYG",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -204,13 +204,13 @@
     {
       "player_id": "00-0039910",
       "game_id": "2026_10_WAS_NYG",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "SOURCE_CAPTURED_AS_OF_FORECAST",
       "injury_report_status": "Out",
       "injury_practice_status": "Did Not Participate In Practice",
-      "injury_source_capture_utc": "2026-11-10T23:00:00.241633+00:00",
+      "injury_source_capture_utc": "2026-11-10T23:02:53.042071+00:00",
       "injury_red_flag": true,
       "actionable": false,
       "warning": "Source report and starter attestation are not guarantees of participation."
@@ -218,13 +218,13 @@
     {
       "player_id": "00-0039910",
       "game_id": "2026_10_WAS_NYG",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "SOURCE_CAPTURED_AS_OF_FORECAST",
       "injury_report_status": "Out",
       "injury_practice_status": "Did Not Participate In Practice",
-      "injury_source_capture_utc": "2026-11-10T23:00:00.241633+00:00",
+      "injury_source_capture_utc": "2026-11-10T23:02:53.042071+00:00",
       "injury_red_flag": true,
       "actionable": false,
       "warning": "Source report and starter attestation are not guarantees of participation."
@@ -232,7 +232,7 @@
     {
       "player_id": "00-0033106",
       "game_id": "2026_10_NE_DET",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -246,7 +246,7 @@
     {
       "player_id": "00-0033106",
       "game_id": "2026_10_NE_DET",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -260,7 +260,7 @@
     {
       "player_id": "00-0033949",
       "game_id": "2026_10_NE_DET",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -274,7 +274,7 @@
     {
       "player_id": "00-0033949",
       "game_id": "2026_10_NE_DET",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -288,7 +288,7 @@
     {
       "player_id": "00-0038476",
       "game_id": "2026_10_NE_DET",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -302,7 +302,7 @@
     {
       "player_id": "00-0038476",
       "game_id": "2026_10_NE_DET",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -316,13 +316,13 @@
     {
       "player_id": "00-0039851",
       "game_id": "2026_10_NE_DET",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "SOURCE_CAPTURED_AS_OF_FORECAST",
       "injury_report_status": null,
       "injury_practice_status": "Full Participation in Practice",
-      "injury_source_capture_utc": "2026-11-10T23:00:00.241633+00:00",
+      "injury_source_capture_utc": "2026-11-10T23:02:53.042071+00:00",
       "injury_red_flag": false,
       "actionable": false,
       "warning": "Source report and starter attestation are not guarantees of participation."
@@ -330,13 +330,13 @@
     {
       "player_id": "00-0039851",
       "game_id": "2026_10_NE_DET",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "SOURCE_CAPTURED_AS_OF_FORECAST",
       "injury_report_status": null,
       "injury_practice_status": "Full Participation in Practice",
-      "injury_source_capture_utc": "2026-11-10T23:00:00.241633+00:00",
+      "injury_source_capture_utc": "2026-11-10T23:02:53.042071+00:00",
       "injury_red_flag": false,
       "actionable": false,
       "warning": "Source report and starter attestation are not guarantees of participation."
@@ -344,13 +344,13 @@
     {
       "player_id": "00-0036212",
       "game_id": "2026_10_KC_ATL",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "SOURCE_CAPTURED_AS_OF_FORECAST",
       "injury_report_status": "Out",
       "injury_practice_status": "Did Not Participate In Practice",
-      "injury_source_capture_utc": "2026-11-10T23:00:00.241633+00:00",
+      "injury_source_capture_utc": "2026-11-10T23:02:53.042071+00:00",
       "injury_red_flag": true,
       "actionable": false,
       "warning": "Source report and starter attestation are not guarantees of participation."
@@ -358,13 +358,13 @@
     {
       "player_id": "00-0036212",
       "game_id": "2026_10_KC_ATL",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "SOURCE_CAPTURED_AS_OF_FORECAST",
       "injury_report_status": "Out",
       "injury_practice_status": "Did Not Participate In Practice",
-      "injury_source_capture_utc": "2026-11-10T23:00:00.241633+00:00",
+      "injury_source_capture_utc": "2026-11-10T23:02:53.042071+00:00",
       "injury_red_flag": true,
       "actionable": false,
       "warning": "Source report and starter attestation are not guarantees of participation."
@@ -372,13 +372,13 @@
     {
       "player_id": "00-0033662",
       "game_id": "2026_10_KC_ATL",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "SOURCE_CAPTURED_AS_OF_FORECAST",
       "injury_report_status": null,
       "injury_practice_status": "Full Participation in Practice",
-      "injury_source_capture_utc": "2026-11-10T23:00:00.241633+00:00",
+      "injury_source_capture_utc": "2026-11-10T23:02:53.042071+00:00",
       "injury_red_flag": false,
       "actionable": false,
       "warning": "Source report and starter attestation are not guarantees of participation."
@@ -386,13 +386,13 @@
     {
       "player_id": "00-0033662",
       "game_id": "2026_10_KC_ATL",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "SOURCE_CAPTURED_AS_OF_FORECAST",
       "injury_report_status": null,
       "injury_practice_status": "Full Participation in Practice",
-      "injury_source_capture_utc": "2026-11-10T23:00:00.241633+00:00",
+      "injury_source_capture_utc": "2026-11-10T23:02:53.042071+00:00",
       "injury_red_flag": false,
       "actionable": false,
       "warning": "Source report and starter attestation are not guarantees of participation."
@@ -400,13 +400,13 @@
     {
       "player_id": "00-0039917",
       "game_id": "2026_10_KC_ATL",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "SOURCE_CAPTURED_AS_OF_FORECAST",
       "injury_report_status": "Out",
       "injury_practice_status": "Full Participation in Practice",
-      "injury_source_capture_utc": "2026-11-10T23:00:00.241633+00:00",
+      "injury_source_capture_utc": "2026-11-10T23:02:53.042071+00:00",
       "injury_red_flag": true,
       "actionable": false,
       "warning": "Source report and starter attestation are not guarantees of participation."
@@ -414,13 +414,13 @@
     {
       "player_id": "00-0039917",
       "game_id": "2026_10_KC_ATL",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "SOURCE_CAPTURED_AS_OF_FORECAST",
       "injury_report_status": "Out",
       "injury_practice_status": "Full Participation in Practice",
-      "injury_source_capture_utc": "2026-11-10T23:00:00.241633+00:00",
+      "injury_source_capture_utc": "2026-11-10T23:02:53.042071+00:00",
       "injury_red_flag": true,
       "actionable": false,
       "warning": "Source report and starter attestation are not guarantees of participation."
@@ -428,13 +428,13 @@
     {
       "player_id": "00-0033873",
       "game_id": "2026_10_KC_ATL",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "SOURCE_CAPTURED_AS_OF_FORECAST",
       "injury_report_status": null,
       "injury_practice_status": "Full Participation in Practice",
-      "injury_source_capture_utc": "2026-11-10T23:00:00.241633+00:00",
+      "injury_source_capture_utc": "2026-11-10T23:02:53.042071+00:00",
       "injury_red_flag": false,
       "actionable": false,
       "warning": "Source report and starter attestation are not guarantees of participation."
@@ -442,13 +442,13 @@
     {
       "player_id": "00-0033873",
       "game_id": "2026_10_KC_ATL",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "SOURCE_CAPTURED_AS_OF_FORECAST",
       "injury_report_status": null,
       "injury_practice_status": "Full Participation in Practice",
-      "injury_source_capture_utc": "2026-11-10T23:00:00.241633+00:00",
+      "injury_source_capture_utc": "2026-11-10T23:02:53.042071+00:00",
       "injury_red_flag": false,
       "actionable": false,
       "warning": "Source report and starter attestation are not guarantees of participation."
@@ -456,7 +456,7 @@
     {
       "player_id": "00-0036945",
       "game_id": "2026_10_KC_ATL",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -470,7 +470,7 @@
     {
       "player_id": "00-0036945",
       "game_id": "2026_10_KC_ATL",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -484,7 +484,7 @@
     {
       "player_id": "00-0032436",
       "game_id": "2026_10_HOU_CLE",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -498,7 +498,7 @@
     {
       "player_id": "00-0032436",
       "game_id": "2026_10_HOU_CLE",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -512,7 +512,7 @@
     {
       "player_id": "00-0038108",
       "game_id": "2026_10_HOU_CLE",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -526,7 +526,7 @@
     {
       "player_id": "00-0038108",
       "game_id": "2026_10_HOU_CLE",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -540,7 +540,7 @@
     {
       "player_id": "00-0033275",
       "game_id": "2026_10_HOU_CLE",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -554,7 +554,7 @@
     {
       "player_id": "00-0033275",
       "game_id": "2026_10_HOU_CLE",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -568,13 +568,13 @@
     {
       "player_id": "00-0033537",
       "game_id": "2026_10_HOU_CLE",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "SOURCE_CAPTURED_AS_OF_FORECAST",
       "injury_report_status": "Questionable",
       "injury_practice_status": "Limited Participation in Practice",
-      "injury_source_capture_utc": "2026-11-10T23:00:00.241633+00:00",
+      "injury_source_capture_utc": "2026-11-10T23:02:53.042071+00:00",
       "injury_red_flag": false,
       "actionable": false,
       "warning": "Source report and starter attestation are not guarantees of participation."
@@ -582,13 +582,13 @@
     {
       "player_id": "00-0033537",
       "game_id": "2026_10_HOU_CLE",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "SOURCE_CAPTURED_AS_OF_FORECAST",
       "injury_report_status": "Questionable",
       "injury_practice_status": "Limited Participation in Practice",
-      "injury_source_capture_utc": "2026-11-10T23:00:00.241633+00:00",
+      "injury_source_capture_utc": "2026-11-10T23:02:53.042071+00:00",
       "injury_red_flag": false,
       "actionable": false,
       "warning": "Source report and starter attestation are not guarantees of participation."
@@ -596,7 +596,7 @@
     {
       "player_id": "00-0038583",
       "game_id": "2026_10_HOU_CLE",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -610,7 +610,7 @@
     {
       "player_id": "00-0038583",
       "game_id": "2026_10_HOU_CLE",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -624,13 +624,13 @@
     {
       "player_id": "00-0040704",
       "game_id": "2026_10_HOU_CLE",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "SOURCE_CAPTURED_AS_OF_FORECAST",
       "injury_report_status": "Out",
       "injury_practice_status": "Full Participation in Practice",
-      "injury_source_capture_utc": "2026-11-10T23:00:00.241633+00:00",
+      "injury_source_capture_utc": "2026-11-10T23:02:53.042071+00:00",
       "injury_red_flag": true,
       "actionable": false,
       "warning": "Source report and starter attestation are not guarantees of participation."
@@ -638,13 +638,13 @@
     {
       "player_id": "00-0040704",
       "game_id": "2026_10_HOU_CLE",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "SOURCE_CAPTURED_AS_OF_FORECAST",
       "injury_report_status": "Out",
       "injury_practice_status": "Full Participation in Practice",
-      "injury_source_capture_utc": "2026-11-10T23:00:00.241633+00:00",
+      "injury_source_capture_utc": "2026-11-10T23:02:53.042071+00:00",
       "injury_red_flag": true,
       "actionable": false,
       "warning": "Source report and starter attestation are not guarantees of participation."
@@ -652,7 +652,7 @@
     {
       "player_id": "00-0040668",
       "game_id": "2026_10_HOU_CLE",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -666,7 +666,7 @@
     {
       "player_id": "00-0040668",
       "game_id": "2026_10_HOU_CLE",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -680,7 +680,7 @@
     {
       "player_id": "00-0036898",
       "game_id": "2026_10_HOU_CLE",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -694,7 +694,7 @@
     {
       "player_id": "00-0036898",
       "game_id": "2026_10_HOU_CLE",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -708,7 +708,7 @@
     {
       "player_id": "00-0039163",
       "game_id": "2026_10_HOU_CLE",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -722,7 +722,7 @@
     {
       "player_id": "00-0039163",
       "game_id": "2026_10_HOU_CLE",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -736,13 +736,13 @@
     {
       "player_id": "00-0036264",
       "game_id": "2026_10_MIN_GB",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "SOURCE_CAPTURED_AS_OF_FORECAST",
       "injury_report_status": null,
       "injury_practice_status": "Full Participation in Practice",
-      "injury_source_capture_utc": "2026-11-10T23:00:00.241633+00:00",
+      "injury_source_capture_utc": "2026-11-10T23:02:53.042071+00:00",
       "injury_red_flag": false,
       "actionable": false,
       "warning": "Source report and starter attestation are not guarantees of participation."
@@ -750,13 +750,13 @@
     {
       "player_id": "00-0036264",
       "game_id": "2026_10_MIN_GB",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "SOURCE_CAPTURED_AS_OF_FORECAST",
       "injury_report_status": null,
       "injury_practice_status": "Full Participation in Practice",
-      "injury_source_capture_utc": "2026-11-10T23:00:00.241633+00:00",
+      "injury_source_capture_utc": "2026-11-10T23:02:53.042071+00:00",
       "injury_red_flag": false,
       "actionable": false,
       "warning": "Source report and starter attestation are not guarantees of participation."
@@ -764,7 +764,7 @@
     {
       "player_id": "00-0028118",
       "game_id": "2026_10_MIN_GB",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -778,7 +778,7 @@
     {
       "player_id": "00-0028118",
       "game_id": "2026_10_MIN_GB",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -792,7 +792,7 @@
     {
       "player_id": "00-0038582",
       "game_id": "2026_10_MIN_GB",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -806,7 +806,7 @@
     {
       "player_id": "00-0038582",
       "game_id": "2026_10_MIN_GB",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -820,7 +820,7 @@
     {
       "player_id": "00-0032950",
       "game_id": "2026_10_MIN_GB",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -834,7 +834,7 @@
     {
       "player_id": "00-0032950",
       "game_id": "2026_10_MIN_GB",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -848,13 +848,13 @@
     {
       "player_id": "00-0035228",
       "game_id": "2026_10_MIN_GB",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "SOURCE_CAPTURED_AS_OF_FORECAST",
       "injury_report_status": "Out",
       "injury_practice_status": "Limited Participation in Practice",
-      "injury_source_capture_utc": "2026-11-10T23:00:00.241633+00:00",
+      "injury_source_capture_utc": "2026-11-10T23:02:53.042071+00:00",
       "injury_red_flag": true,
       "actionable": false,
       "warning": "Source report and starter attestation are not guarantees of participation."
@@ -862,13 +862,13 @@
     {
       "player_id": "00-0035228",
       "game_id": "2026_10_MIN_GB",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "SOURCE_CAPTURED_AS_OF_FORECAST",
       "injury_report_status": "Out",
       "injury_practice_status": "Limited Participation in Practice",
-      "injury_source_capture_utc": "2026-11-10T23:00:00.241633+00:00",
+      "injury_source_capture_utc": "2026-11-10T23:02:53.042071+00:00",
       "injury_red_flag": true,
       "actionable": false,
       "warning": "Source report and starter attestation are not guarantees of participation."
@@ -876,7 +876,7 @@
     {
       "player_id": "00-0040494",
       "game_id": "2026_10_MIN_GB",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -890,7 +890,7 @@
     {
       "player_id": "00-0040494",
       "game_id": "2026_10_MIN_GB",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -904,7 +904,7 @@
     {
       "player_id": "00-0026143",
       "game_id": "2026_10_MIA_IND",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -918,7 +918,7 @@
     {
       "player_id": "00-0026143",
       "game_id": "2026_10_MIA_IND",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -932,13 +932,13 @@
     {
       "player_id": "00-0035710",
       "game_id": "2026_10_MIA_IND",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "SOURCE_CAPTURED_AS_OF_FORECAST",
       "injury_report_status": null,
       "injury_practice_status": "Full Participation in Practice",
-      "injury_source_capture_utc": "2026-11-10T23:00:00.241633+00:00",
+      "injury_source_capture_utc": "2026-11-10T23:02:53.042071+00:00",
       "injury_red_flag": false,
       "actionable": false,
       "warning": "Source report and starter attestation are not guarantees of participation."
@@ -946,13 +946,13 @@
     {
       "player_id": "00-0035710",
       "game_id": "2026_10_MIA_IND",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "SOURCE_CAPTURED_AS_OF_FORECAST",
       "injury_report_status": null,
       "injury_practice_status": "Full Participation in Practice",
-      "injury_source_capture_utc": "2026-11-10T23:00:00.241633+00:00",
+      "injury_source_capture_utc": "2026-11-10T23:02:53.042071+00:00",
       "injury_red_flag": false,
       "actionable": false,
       "warning": "Source report and starter attestation are not guarantees of participation."
@@ -960,13 +960,13 @@
     {
       "player_id": "00-0039164",
       "game_id": "2026_10_MIA_IND",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "SOURCE_CAPTURED_AS_OF_FORECAST",
       "injury_report_status": null,
       "injury_practice_status": "Full Participation in Practice",
-      "injury_source_capture_utc": "2026-11-10T23:00:00.241633+00:00",
+      "injury_source_capture_utc": "2026-11-10T23:02:53.042071+00:00",
       "injury_red_flag": false,
       "actionable": false,
       "warning": "Source report and starter attestation are not guarantees of participation."
@@ -974,13 +974,13 @@
     {
       "player_id": "00-0039164",
       "game_id": "2026_10_MIA_IND",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "SOURCE_CAPTURED_AS_OF_FORECAST",
       "injury_report_status": null,
       "injury_practice_status": "Full Participation in Practice",
-      "injury_source_capture_utc": "2026-11-10T23:00:00.241633+00:00",
+      "injury_source_capture_utc": "2026-11-10T23:02:53.042071+00:00",
       "injury_red_flag": false,
       "actionable": false,
       "warning": "Source report and starter attestation are not guarantees of participation."
@@ -988,13 +988,13 @@
     {
       "player_id": "00-0038128",
       "game_id": "2026_10_MIA_IND",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "SOURCE_CAPTURED_AS_OF_FORECAST",
       "injury_report_status": null,
       "injury_practice_status": "Full Participation in Practice",
-      "injury_source_capture_utc": "2026-11-10T23:00:00.241633+00:00",
+      "injury_source_capture_utc": "2026-11-10T23:02:53.042071+00:00",
       "injury_red_flag": false,
       "actionable": false,
       "warning": "Source report and starter attestation are not guarantees of participation."
@@ -1002,13 +1002,13 @@
     {
       "player_id": "00-0038128",
       "game_id": "2026_10_MIA_IND",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "SOURCE_CAPTURED_AS_OF_FORECAST",
       "injury_report_status": null,
       "injury_practice_status": "Full Participation in Practice",
-      "injury_source_capture_utc": "2026-11-10T23:00:00.241633+00:00",
+      "injury_source_capture_utc": "2026-11-10T23:02:53.042071+00:00",
       "injury_red_flag": false,
       "actionable": false,
       "warning": "Source report and starter attestation are not guarantees of participation."
@@ -1016,7 +1016,7 @@
     {
       "player_id": "00-0037013",
       "game_id": "2026_10_MIA_IND",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -1030,7 +1030,7 @@
     {
       "player_id": "00-0037013",
       "game_id": "2026_10_MIA_IND",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -1044,7 +1044,7 @@
     {
       "player_id": "00-0037327",
       "game_id": "2026_10_MIA_IND",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -1058,7 +1058,7 @@
     {
       "player_id": "00-0037327",
       "game_id": "2026_10_MIA_IND",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -1072,7 +1072,7 @@
     {
       "player_id": "00-0031280",
       "game_id": "2026_10_CAR_NO",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -1086,7 +1086,7 @@
     {
       "player_id": "00-0031280",
       "game_id": "2026_10_CAR_NO",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -1100,7 +1100,7 @@
     {
       "player_id": "00-0038998",
       "game_id": "2026_10_CAR_NO",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -1114,7 +1114,7 @@
     {
       "player_id": "00-0038998",
       "game_id": "2026_10_CAR_NO",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -1128,13 +1128,13 @@
     {
       "player_id": "00-0039376",
       "game_id": "2026_10_CAR_NO",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "SOURCE_CAPTURED_AS_OF_FORECAST",
       "injury_report_status": null,
       "injury_practice_status": "Full Participation in Practice",
-      "injury_source_capture_utc": "2026-11-10T23:00:00.241633+00:00",
+      "injury_source_capture_utc": "2026-11-10T23:02:53.042071+00:00",
       "injury_red_flag": false,
       "actionable": false,
       "warning": "Source report and starter attestation are not guarantees of participation."
@@ -1142,13 +1142,13 @@
     {
       "player_id": "00-0039376",
       "game_id": "2026_10_CAR_NO",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "SOURCE_CAPTURED_AS_OF_FORECAST",
       "injury_report_status": null,
       "injury_practice_status": "Full Participation in Practice",
-      "injury_source_capture_utc": "2026-11-10T23:00:00.241633+00:00",
+      "injury_source_capture_utc": "2026-11-10T23:02:53.042071+00:00",
       "injury_red_flag": false,
       "actionable": false,
       "warning": "Source report and starter attestation are not guarantees of participation."
@@ -1156,13 +1156,13 @@
     {
       "player_id": "00-0040743",
       "game_id": "2026_10_CAR_NO",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "SOURCE_CAPTURED_AS_OF_FORECAST",
       "injury_report_status": null,
       "injury_practice_status": "Full Participation in Practice",
-      "injury_source_capture_utc": "2026-11-10T23:00:00.241633+00:00",
+      "injury_source_capture_utc": "2026-11-10T23:02:53.042071+00:00",
       "injury_red_flag": false,
       "actionable": false,
       "warning": "Source report and starter attestation are not guarantees of participation."
@@ -1170,13 +1170,13 @@
     {
       "player_id": "00-0040743",
       "game_id": "2026_10_CAR_NO",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "SOURCE_CAPTURED_AS_OF_FORECAST",
       "injury_report_status": null,
       "injury_practice_status": "Full Participation in Practice",
-      "injury_source_capture_utc": "2026-11-10T23:00:00.241633+00:00",
+      "injury_source_capture_utc": "2026-11-10T23:02:53.042071+00:00",
       "injury_red_flag": false,
       "actionable": false,
       "warning": "Source report and starter attestation are not guarantees of participation."
@@ -1184,7 +1184,7 @@
     {
       "player_id": "00-0038102",
       "game_id": "2026_10_CAR_NO",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -1198,7 +1198,7 @@
     {
       "player_id": "00-0038102",
       "game_id": "2026_10_CAR_NO",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -1212,13 +1212,13 @@
     {
       "player_id": "00-0039150",
       "game_id": "2026_10_CAR_NO",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "SOURCE_CAPTURED_AS_OF_FORECAST",
       "injury_report_status": null,
       "injury_practice_status": "Full Participation in Practice",
-      "injury_source_capture_utc": "2026-11-10T23:00:00.241633+00:00",
+      "injury_source_capture_utc": "2026-11-10T23:02:53.042071+00:00",
       "injury_red_flag": false,
       "actionable": false,
       "warning": "Source report and starter attestation are not guarantees of participation."
@@ -1226,13 +1226,13 @@
     {
       "player_id": "00-0039150",
       "game_id": "2026_10_CAR_NO",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "SOURCE_CAPTURED_AS_OF_FORECAST",
       "injury_report_status": null,
       "injury_practice_status": "Full Participation in Practice",
-      "injury_source_capture_utc": "2026-11-10T23:00:00.241633+00:00",
+      "injury_source_capture_utc": "2026-11-10T23:02:53.042071+00:00",
       "injury_red_flag": false,
       "actionable": false,
       "warning": "Source report and starter attestation are not guarantees of participation."
@@ -1240,7 +1240,7 @@
     {
       "player_id": "00-0030565",
       "game_id": "2026_10_BUF_NYJ",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -1254,7 +1254,7 @@
     {
       "player_id": "00-0030565",
       "game_id": "2026_10_BUF_NYJ",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -1268,7 +1268,7 @@
     {
       "player_id": "00-0032156",
       "game_id": "2026_10_BUF_NYJ",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -1282,7 +1282,7 @@
     {
       "player_id": "00-0032156",
       "game_id": "2026_10_BUF_NYJ",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -1296,7 +1296,7 @@
     {
       "player_id": "00-0034857",
       "game_id": "2026_10_BUF_NYJ",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -1310,7 +1310,7 @@
     {
       "player_id": "00-0034857",
       "game_id": "2026_10_BUF_NYJ",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -1324,7 +1324,7 @@
     {
       "player_id": "00-0033869",
       "game_id": "2026_10_BUF_NYJ",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -1338,7 +1338,7 @@
     {
       "player_id": "00-0033869",
       "game_id": "2026_10_BUF_NYJ",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -1352,7 +1352,7 @@
     {
       "player_id": "00-0034401",
       "game_id": "2026_10_BUF_NYJ",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -1366,7 +1366,7 @@
     {
       "player_id": "00-0034401",
       "game_id": "2026_10_BUF_NYJ",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -1380,7 +1380,7 @@
     {
       "player_id": "00-0034577",
       "game_id": "2026_10_BUF_NYJ",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -1394,7 +1394,7 @@
     {
       "player_id": "00-0034577",
       "game_id": "2026_10_BUF_NYJ",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -1408,7 +1408,7 @@
     {
       "player_id": "00-0029701",
       "game_id": "2026_10_JAX_TEN",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -1422,7 +1422,7 @@
     {
       "player_id": "00-0029701",
       "game_id": "2026_10_JAX_TEN",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -1436,7 +1436,7 @@
     {
       "player_id": "00-0039152",
       "game_id": "2026_10_JAX_TEN",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -1450,7 +1450,7 @@
     {
       "player_id": "00-0039152",
       "game_id": "2026_10_JAX_TEN",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -1464,7 +1464,7 @@
     {
       "player_id": "00-0040676",
       "game_id": "2026_10_JAX_TEN",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -1478,7 +1478,7 @@
     {
       "player_id": "00-0040676",
       "game_id": "2026_10_JAX_TEN",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -1492,7 +1492,7 @@
     {
       "player_id": "00-0036971",
       "game_id": "2026_10_JAX_TEN",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -1506,7 +1506,7 @@
     {
       "player_id": "00-0036971",
       "game_id": "2026_10_JAX_TEN",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -1520,7 +1520,7 @@
     {
       "player_id": "00-0033936",
       "game_id": "2026_10_JAX_TEN",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -1534,7 +1534,7 @@
     {
       "player_id": "00-0033936",
       "game_id": "2026_10_JAX_TEN",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -1548,7 +1548,7 @@
     {
       "player_id": "00-0033319",
       "game_id": "2026_10_JAX_TEN",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -1562,7 +1562,7 @@
     {
       "player_id": "00-0033319",
       "game_id": "2026_10_JAX_TEN",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -1576,13 +1576,13 @@
     {
       "player_id": "00-0033119",
       "game_id": "2026_10_LA_ARI",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "SOURCE_CAPTURED_AS_OF_FORECAST",
       "injury_report_status": null,
       "injury_practice_status": "Full Participation in Practice",
-      "injury_source_capture_utc": "2026-11-10T23:00:00.241633+00:00",
+      "injury_source_capture_utc": "2026-11-10T23:02:53.042071+00:00",
       "injury_red_flag": false,
       "actionable": false,
       "warning": "Source report and starter attestation are not guarantees of participation."
@@ -1590,13 +1590,13 @@
     {
       "player_id": "00-0033119",
       "game_id": "2026_10_LA_ARI",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "SOURCE_CAPTURED_AS_OF_FORECAST",
       "injury_report_status": null,
       "injury_practice_status": "Full Participation in Practice",
-      "injury_source_capture_utc": "2026-11-10T23:00:00.241633+00:00",
+      "injury_source_capture_utc": "2026-11-10T23:02:53.042071+00:00",
       "injury_red_flag": false,
       "actionable": false,
       "warning": "Source report and starter attestation are not guarantees of participation."
@@ -1604,7 +1604,7 @@
     {
       "player_id": "00-0035289",
       "game_id": "2026_10_LA_ARI",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -1618,7 +1618,7 @@
     {
       "player_id": "00-0035289",
       "game_id": "2026_10_LA_ARI",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -1632,13 +1632,13 @@
     {
       "player_id": "00-0026498",
       "game_id": "2026_10_LA_ARI",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "SOURCE_CAPTURED_AS_OF_FORECAST",
       "injury_report_status": null,
       "injury_practice_status": "Full Participation in Practice",
-      "injury_source_capture_utc": "2026-11-10T23:00:00.241633+00:00",
+      "injury_source_capture_utc": "2026-11-10T23:02:53.042071+00:00",
       "injury_red_flag": false,
       "actionable": false,
       "warning": "Source report and starter attestation are not guarantees of participation."
@@ -1646,13 +1646,13 @@
     {
       "player_id": "00-0026498",
       "game_id": "2026_10_LA_ARI",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "SOURCE_CAPTURED_AS_OF_FORECAST",
       "injury_report_status": null,
       "injury_practice_status": "Full Participation in Practice",
-      "injury_source_capture_utc": "2026-11-10T23:00:00.241633+00:00",
+      "injury_source_capture_utc": "2026-11-10T23:02:53.042071+00:00",
       "injury_red_flag": false,
       "actionable": false,
       "warning": "Source report and starter attestation are not guarantees of participation."
@@ -1660,7 +1660,7 @@
     {
       "player_id": "00-0031345",
       "game_id": "2026_10_LA_ARI",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -1674,7 +1674,7 @@
     {
       "player_id": "00-0031345",
       "game_id": "2026_10_LA_ARI",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -1688,7 +1688,7 @@
     {
       "player_id": "00-0029604",
       "game_id": "2026_10_SEA_LV",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -1702,7 +1702,7 @@
     {
       "player_id": "00-0029604",
       "game_id": "2026_10_SEA_LV",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -1716,7 +1716,7 @@
     {
       "player_id": "00-0038122",
       "game_id": "2026_10_SEA_LV",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -1730,7 +1730,7 @@
     {
       "player_id": "00-0038122",
       "game_id": "2026_10_SEA_LV",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -1744,13 +1744,13 @@
     {
       "player_id": "00-0038579",
       "game_id": "2026_10_SEA_LV",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "SOURCE_CAPTURED_AS_OF_FORECAST",
       "injury_report_status": "Questionable",
       "injury_practice_status": "Did Not Participate In Practice",
-      "injury_source_capture_utc": "2026-11-10T23:00:00.241633+00:00",
+      "injury_source_capture_utc": "2026-11-10T23:02:53.042071+00:00",
       "injury_red_flag": false,
       "actionable": false,
       "warning": "Source report and starter attestation are not guarantees of participation."
@@ -1758,13 +1758,13 @@
     {
       "player_id": "00-0038579",
       "game_id": "2026_10_SEA_LV",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "SOURCE_CAPTURED_AS_OF_FORECAST",
       "injury_report_status": "Questionable",
       "injury_practice_status": "Did Not Participate In Practice",
-      "injury_source_capture_utc": "2026-11-10T23:00:00.241633+00:00",
+      "injury_source_capture_utc": "2026-11-10T23:02:53.042071+00:00",
       "injury_red_flag": false,
       "actionable": false,
       "warning": "Source report and starter attestation are not guarantees of participation."
@@ -1772,13 +1772,13 @@
     {
       "player_id": "00-0034869",
       "game_id": "2026_10_SEA_LV",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "SOURCE_CAPTURED_AS_OF_FORECAST",
       "injury_report_status": "Out",
       "injury_practice_status": "Did Not Participate In Practice",
-      "injury_source_capture_utc": "2026-11-10T23:00:00.241633+00:00",
+      "injury_source_capture_utc": "2026-11-10T23:02:53.042071+00:00",
       "injury_red_flag": true,
       "actionable": false,
       "warning": "Source report and starter attestation are not guarantees of participation."
@@ -1786,13 +1786,13 @@
     {
       "player_id": "00-0034869",
       "game_id": "2026_10_SEA_LV",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "SOURCE_CAPTURED_AS_OF_FORECAST",
       "injury_report_status": "Out",
       "injury_practice_status": "Did Not Participate In Practice",
-      "injury_source_capture_utc": "2026-11-10T23:00:00.241633+00:00",
+      "injury_source_capture_utc": "2026-11-10T23:02:53.042071+00:00",
       "injury_red_flag": true,
       "actionable": false,
       "warning": "Source report and starter attestation are not guarantees of participation."
@@ -1800,7 +1800,7 @@
     {
       "player_id": "00-0037077",
       "game_id": "2026_10_SEA_LV",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -1814,7 +1814,7 @@
     {
       "player_id": "00-0037077",
       "game_id": "2026_10_SEA_LV",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -1828,13 +1828,13 @@
     {
       "player_id": "00-0035704",
       "game_id": "2026_10_SEA_LV",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "SOURCE_CAPTURED_AS_OF_FORECAST",
       "injury_report_status": null,
       "injury_practice_status": "Limited Participation in Practice",
-      "injury_source_capture_utc": "2026-11-10T23:00:00.241633+00:00",
+      "injury_source_capture_utc": "2026-11-10T23:02:53.042071+00:00",
       "injury_red_flag": false,
       "actionable": false,
       "warning": "Source report and starter attestation are not guarantees of participation."
@@ -1842,13 +1842,13 @@
     {
       "player_id": "00-0035704",
       "game_id": "2026_10_SEA_LV",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "SOURCE_CAPTURED_AS_OF_FORECAST",
       "injury_report_status": null,
       "injury_practice_status": "Limited Participation in Practice",
-      "injury_source_capture_utc": "2026-11-10T23:00:00.241633+00:00",
+      "injury_source_capture_utc": "2026-11-10T23:02:53.042071+00:00",
       "injury_red_flag": false,
       "actionable": false,
       "warning": "Source report and starter attestation are not guarantees of participation."
@@ -1856,7 +1856,7 @@
     {
       "player_id": "00-0033077",
       "game_id": "2026_10_SF_DAL",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -1870,7 +1870,7 @@
     {
       "player_id": "00-0033077",
       "game_id": "2026_10_SF_DAL",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -1884,7 +1884,7 @@
     {
       "player_id": "00-0036972",
       "game_id": "2026_10_SF_DAL",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -1898,7 +1898,7 @@
     {
       "player_id": "00-0036972",
       "game_id": "2026_10_SF_DAL",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -1912,7 +1912,7 @@
     {
       "player_id": "00-0037834",
       "game_id": "2026_10_SF_DAL",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -1926,7 +1926,7 @@
     {
       "player_id": "00-0037834",
       "game_id": "2026_10_SF_DAL",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -1940,7 +1940,7 @@
     {
       "player_id": "00-0026158",
       "game_id": "2026_10_PIT_CIN",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -1954,7 +1954,7 @@
     {
       "player_id": "00-0026158",
       "game_id": "2026_10_PIT_CIN",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -1968,13 +1968,13 @@
     {
       "player_id": "00-0036442",
       "game_id": "2026_10_PIT_CIN",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "SOURCE_CAPTURED_AS_OF_FORECAST",
       "injury_report_status": "Questionable",
       "injury_practice_status": "Full Participation in Practice",
-      "injury_source_capture_utc": "2026-11-10T23:00:00.241633+00:00",
+      "injury_source_capture_utc": "2026-11-10T23:02:53.042071+00:00",
       "injury_red_flag": false,
       "actionable": false,
       "warning": "Source report and starter attestation are not guarantees of participation."
@@ -1982,13 +1982,13 @@
     {
       "player_id": "00-0036442",
       "game_id": "2026_10_PIT_CIN",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "SOURCE_CAPTURED_AS_OF_FORECAST",
       "injury_report_status": "Questionable",
       "injury_practice_status": "Full Participation in Practice",
-      "injury_source_capture_utc": "2026-11-10T23:00:00.241633+00:00",
+      "injury_source_capture_utc": "2026-11-10T23:02:53.042071+00:00",
       "injury_red_flag": false,
       "actionable": false,
       "warning": "Source report and starter attestation are not guarantees of participation."
@@ -1996,7 +1996,7 @@
     {
       "player_id": "00-0034955",
       "game_id": "2026_10_PIT_CIN",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -2010,7 +2010,7 @@
     {
       "player_id": "00-0034955",
       "game_id": "2026_10_PIT_CIN",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -2024,7 +2024,7 @@
     {
       "player_id": "00-0035100",
       "game_id": "2026_10_PIT_CIN",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -2038,7 +2038,7 @@
     {
       "player_id": "00-0035100",
       "game_id": "2026_10_PIT_CIN",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -2052,7 +2052,7 @@
     {
       "player_id": "00-0023459",
       "game_id": "2026_10_PIT_CIN",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -2066,7 +2066,7 @@
     {
       "player_id": "00-0023459",
       "game_id": "2026_10_PIT_CIN",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -2080,7 +2080,7 @@
     {
       "player_id": "00-0034771",
       "game_id": "2026_10_PIT_CIN",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -2094,7 +2094,7 @@
     {
       "player_id": "00-0034771",
       "game_id": "2026_10_PIT_CIN",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -2108,13 +2108,13 @@
     {
       "player_id": "00-0034796",
       "game_id": "2026_10_LAC_BAL",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "SOURCE_CAPTURED_AS_OF_FORECAST",
       "injury_report_status": null,
       "injury_practice_status": "Full Participation in Practice",
-      "injury_source_capture_utc": "2026-11-10T23:00:00.241633+00:00",
+      "injury_source_capture_utc": "2026-11-10T23:02:53.042071+00:00",
       "injury_red_flag": false,
       "actionable": false,
       "warning": "Source report and starter attestation are not guarantees of participation."
@@ -2122,13 +2122,13 @@
     {
       "player_id": "00-0034796",
       "game_id": "2026_10_LAC_BAL",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "SOURCE_CAPTURED_AS_OF_FORECAST",
       "injury_report_status": null,
       "injury_practice_status": "Full Participation in Practice",
-      "injury_source_capture_utc": "2026-11-10T23:00:00.241633+00:00",
+      "injury_source_capture_utc": "2026-11-10T23:02:53.042071+00:00",
       "injury_red_flag": false,
       "actionable": false,
       "warning": "Source report and starter attestation are not guarantees of participation."
@@ -2136,13 +2136,13 @@
     {
       "player_id": "00-0035993",
       "game_id": "2026_10_LAC_BAL",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "SOURCE_CAPTURED_AS_OF_FORECAST",
       "injury_report_status": "Out",
       "injury_practice_status": "Did Not Participate In Practice",
-      "injury_source_capture_utc": "2026-11-10T23:00:00.241633+00:00",
+      "injury_source_capture_utc": "2026-11-10T23:02:53.042071+00:00",
       "injury_red_flag": true,
       "actionable": false,
       "warning": "Source report and starter attestation are not guarantees of participation."
@@ -2150,13 +2150,13 @@
     {
       "player_id": "00-0035993",
       "game_id": "2026_10_LAC_BAL",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "SOURCE_CAPTURED_AS_OF_FORECAST",
       "injury_report_status": "Out",
       "injury_practice_status": "Did Not Participate In Practice",
-      "injury_source_capture_utc": "2026-11-10T23:00:00.241633+00:00",
+      "injury_source_capture_utc": "2026-11-10T23:02:53.042071+00:00",
       "injury_red_flag": true,
       "actionable": false,
       "warning": "Source report and starter attestation are not guarantees of participation."
@@ -2164,7 +2164,7 @@
     {
       "player_id": "00-0036355",
       "game_id": "2026_10_LAC_BAL",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -2178,7 +2178,7 @@
     {
       "player_id": "00-0036355",
       "game_id": "2026_10_LAC_BAL",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -2192,13 +2192,13 @@
     {
       "player_id": "00-0037012",
       "game_id": "2026_10_LAC_BAL",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "SOURCE_CAPTURED_AS_OF_FORECAST",
       "injury_report_status": "Questionable",
       "injury_practice_status": "Limited Participation in Practice",
-      "injury_source_capture_utc": "2026-11-10T23:00:00.241633+00:00",
+      "injury_source_capture_utc": "2026-11-10T23:02:53.042071+00:00",
       "injury_red_flag": false,
       "actionable": false,
       "warning": "Source report and starter attestation are not guarantees of participation."
@@ -2206,13 +2206,13 @@
     {
       "player_id": "00-0037012",
       "game_id": "2026_10_LAC_BAL",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "SOURCE_CAPTURED_AS_OF_FORECAST",
       "injury_report_status": "Questionable",
       "injury_practice_status": "Limited Participation in Practice",
-      "injury_source_capture_utc": "2026-11-10T23:00:00.241633+00:00",
+      "injury_source_capture_utc": "2026-11-10T23:02:53.042071+00:00",
       "injury_red_flag": false,
       "actionable": false,
       "warning": "Source report and starter attestation are not guarantees of participation."
@@ -2220,7 +2220,7 @@
     {
       "player_id": "00-0031800",
       "game_id": "2026_10_LAC_BAL",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
@@ -2234,7 +2234,7 @@
     {
       "player_id": "00-0031800",
       "game_id": "2026_10_LAC_BAL",
-      "forecast_created_utc": "2026-11-10T23:00:06.632495+00:00",
+      "forecast_created_utc": "2026-11-10T23:03:02.806263+00:00",
       "starter_status": "UNVERIFIED",
       "starter_source": null,
       "injury_status": "UNKNOWN",
