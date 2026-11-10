@@ -20,7 +20,7 @@ jobs:
           cache: pip
       - run: pip install -r requirements.txt
       - name: Test v0.5 validation logic
-        run: python -m unittest -v test_validation_v05.py test_market.py test_research_v07.py
+        run: python -m unittest -v test_validation_v05.py test_market.py test_research_v07.py test_reconciliation.py
       - name: Download and backtest NFL data
         run: python pipeline.py
       - name: Benchmark and validate v0.5 models
@@ -33,6 +33,12 @@ jobs:
         run: python market_discovery.py
       - name: Capture prospective pregame forecasts
         run: python pregame.py
+      - name: Check as-of starter and injury evidence
+        run: python availability_evidence.py
+      - name: Reconcile reviewed Kalshi contract rules
+        run: python contract_reconciliation.py
+      - name: Cross-check settled markets against NFL results
+        run: python settlement_reconciliation.py
       - name: Paper execution and statistical edge status
         run: python execution_validation.py
       - name: Research-only fee-aware market evaluation
