@@ -25,7 +25,7 @@ def verify_payload(payload,now):
             confirmed=parse_utc(row["confirmed_utc"])
             if not now-timedelta(hours=24)<=confirmed<=now+timedelta(minutes=5):
                 raise ValueError("Confirmation stale or future-dated")
-            valid.append({k:row[k] for k in ("game_id","player_id","team","source_url","confirmed_utc")})
+            valid.append({**{k:row[k] for k in ("game_id","player_id","team","source_url","confirmed_utc")},"captured_utc":now.isoformat(),"provider_status":"CONFIRMED_CLAIM_NOT_INDEPENDENTLY_AUDITED"})
         except (ValueError,KeyError,TypeError) as e:
             rejected.append({"game_id":row.get("game_id"),"reason":str(e)})
     return valid,rejected
