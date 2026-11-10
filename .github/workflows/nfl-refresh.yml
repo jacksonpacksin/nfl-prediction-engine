@@ -27,7 +27,7 @@ jobs:
         run: python validation_v05.py
       - name: Capture point-in-time injuries and configured Kalshi orderbooks
         env:
-          KALSHI_TICKERS: \${{ vars.KALSHI_TICKERS }}
+          KALSHI_TICKERS: ${{ vars.KALSHI_TICKERS }}
         run: python market_capture.py
       - name: Research-only fee-aware market evaluation
         run: python market_ev.py
