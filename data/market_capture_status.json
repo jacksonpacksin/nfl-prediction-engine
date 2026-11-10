@@ -1,0 +1,9 @@
+{
+  "captured_utc": "2026-11-10T22:46:56.949770+00:00",
+  "injury_records": 2821,
+  "kalshi_tickers_requested": 0,
+  "kalshi_quotes_ok": 0,
+  "kalshi_errors": [],
+  "mapping_status": "UNMAPPED: Kalshi ticker must be explicitly linked to a player, game and exact settlement threshold",
+  "note": "Snapshot capture only; do not backfill historical information with later snapshots. No trades."
+}

@@ -1,0 +1,7 @@
+{
+  "status": "INSUFFICIENT_INDEPENDENT_PLAYER_GAMES",
+  "clusters": 0,
+  "records_seen": 0,
+  "verified_records": 0,
+  "warning": "Data must be captured prospectively. Never manufacture historical quotes from present orderbooks."
+}
