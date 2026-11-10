@@ -20,7 +20,7 @@ jobs:
           cache: pip
       - run: pip install -r requirements.txt
       - name: Test v0.5 validation logic
-        run: python -m unittest -v test_validation_v05.py test_market.py
+        run: python -m unittest -v test_validation_v05.py test_market.py test_research_v07.py
       - name: Download and backtest NFL data
         run: python pipeline.py
       - name: Benchmark and validate v0.5 models
@@ -29,6 +29,12 @@ jobs:
         env:
           KALSHI_TICKERS: ${{ vars.KALSHI_TICKERS }}
         run: python market_capture.py
+      - name: Discover candidate NFL passing-yard markets
+        run: python market_discovery.py
+      - name: Capture prospective pregame forecasts
+        run: python pregame.py
+      - name: Paper execution and statistical edge status
+        run: python execution_validation.py
       - name: Research-only fee-aware market evaluation
         run: python market_ev.py
       - name: Publish data
