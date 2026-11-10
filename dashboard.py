@@ -4,6 +4,7 @@ from datetime import datetime,timezone
 from pathlib import Path
 import pandas as pd
 import streamlit as st
+from kalshi_research_bot import analyze
 
 ROOT=Path(__file__).resolve().parent/"data"
 st.set_page_config(page_title="NFL Prediction Research",page_icon="🏈",layout="wide")
@@ -56,7 +57,20 @@ c.metric("Attested starters",readiness.get("player_games_with_attested_starter",
 d.metric("Validated outcomes",validation.get("known_outcomes","—"))
 st.caption("Market edge status: "+str(readiness.get("market_edge_status","NOT ESTABLISHED")))
 
-tab1,tab2,tab3,tab4=st.tabs(["Pregame forecasts","Availability evidence","Markets & quotes","Outcome validation"])
+tab0,tab1,tab2,tab3,tab4=st.tabs(["Research chatbot","Pregame forecasts","Availability evidence","Markets & quotes","Outcome validation"])
+with tab0:
+    st.subheader("Ask the Kalshi research assistant")
+    st.caption("Independent, rule-based and free: answers from saved NFL research snapshots only. No live browsing, LLM API key or trading account access.")
+    if "research_messages" not in st.session_state:st.session_state.research_messages=[]
+    for msg in st.session_state.research_messages:
+        with st.chat_message(msg["role"]):st.markdown(msg["content"])
+    prompt=st.chat_input("Example: What should I pick on Kalshi?")
+    if prompt:
+        st.session_state.research_messages.append({"role":"user","content":prompt})
+        with st.chat_message("user"):st.markdown(prompt)
+        response=analyze(prompt,forecasts,quotes,candidates,availability,readiness,json_file("reconciliation_status.json").get("records",[]))
+        st.session_state.research_messages.append({"role":"assistant","content":response})
+        with st.chat_message("assistant"):st.markdown(response)
 with tab1:
     st.subheader("Prospective QB passing-yard forecasts")
     st.caption("Model outputs are not starter-verified or market-executable recommendations.")
