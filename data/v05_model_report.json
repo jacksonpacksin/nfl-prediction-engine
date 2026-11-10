@@ -1,0 +1,323 @@
+{
+  "version": "0.5",
+  "status": "evaluated",
+  "protocol": {
+    "history_start": 2022,
+    "selection_period": 2025,
+    "holdout_period": 2026,
+    "minimum_prior_player_games": 6,
+    "same_day_leakage_prevented": true,
+    "model_selection": "lowest 2025 validation Brier score; fixed before 2026 evaluation",
+    "calibration": "per-threshold isotonic regression fitted on 2025 only",
+    "caveats": [
+      "The 2025 calibration data also selected the model; evaluate only on 2026 holdout.",
+      "Multiple thresholds for one player-game are correlated.",
+      "The 2026 holdout is partial and becomes longer as games finish.",
+      "Data are historical game summaries, not point-in-time archived market or injury feeds.",
+      "Do not treat this report as evidence of profitable trades."
+    ]
+  },
+  "validation_model_scores": {
+    "shrink_normal": {
+      "n": 2920,
+      "brier": 0.184194,
+      "log_loss": 0.550066,
+      "mean_probability": 0.3428,
+      "observed_rate": 0.3175,
+      "ece_10_bins": 0.029231
+    },
+    "rolling_normal": {
+      "n": 2920,
+      "brier": 0.186616,
+      "log_loss": 0.563571,
+      "mean_probability": 0.3401,
+      "observed_rate": 0.3175,
+      "ece_10_bins": 0.039691
+    },
+    "empirical": {
+      "n": 2920,
+      "brier": 0.18808,
+      "log_loss": 0.558263,
+      "mean_probability": 0.3644,
+      "observed_rate": 0.3175,
+      "ece_10_bins": 0.051066
+    },
+    "league_prior": {
+      "n": 2920,
+      "brier": 0.194935,
+      "log_loss": 0.572649,
+      "mean_probability": 0.3225,
+      "observed_rate": 0.3175,
+      "ece_10_bins": 0.011706
+    }
+  },
+  "selected_model": "shrink_normal",
+  "holdout_model_scores": {
+    "shrink_normal": {
+      "n": 1495,
+      "brier": 0.187498,
+      "log_loss": 0.555693,
+      "mean_probability": 0.3482,
+      "observed_rate": 0.3525,
+      "ece_10_bins": 0.02817
+    },
+    "rolling_normal": {
+      "n": 1495,
+      "brier": 0.189945,
+      "log_loss": 0.564505,
+      "mean_probability": 0.3496,
+      "observed_rate": 0.3525,
+      "ece_10_bins": 0.028525
+    },
+    "empirical": {
+      "n": 1495,
+      "brier": 0.195816,
+      "log_loss": 0.575413,
+      "mean_probability": 0.373,
+      "observed_rate": 0.3525,
+      "ece_10_bins": 0.033428
+    },
+    "league_prior": {
+      "n": 1495,
+      "brier": 0.205572,
+      "log_loss": 0.597348,
+      "mean_probability": 0.3183,
+      "observed_rate": 0.3525,
+      "ece_10_bins": 0.034162
+    }
+  },
+  "holdout_selected_raw": {
+    "n": 1495,
+    "brier": 0.187498,
+    "log_loss": 0.555693,
+    "mean_probability": 0.3482,
+    "observed_rate": 0.3525,
+    "ece_10_bins": 0.02817
+  },
+  "holdout_selected_calibrated": {
+    "n": 1495,
+    "brier": 0.18955,
+    "log_loss": 0.596433,
+    "mean_probability": 0.3236,
+    "observed_rate": 0.3525,
+    "ece_10_bins": 0.03965
+  },
+  "holdout_by_threshold": {
+    "199.5": {
+      "raw": {
+        "n": 299,
+        "brier": 0.219203,
+        "log_loss": 0.629685,
+        "mean_probability": 0.5774,
+        "observed_rate": 0.5853,
+        "ece_10_bins": 0.070915
+      },
+      "calibrated": {
+        "n": 299,
+        "brier": 0.221397,
+        "log_loss": 0.654389,
+        "mean_probability": 0.5388,
+        "observed_rate": 0.5853,
+        "ece_10_bins": 0.053181
+      }
+    },
+    "224.5": {
+      "raw": {
+        "n": 299,
+        "brier": 0.222213,
+        "log_loss": 0.633004,
+        "mean_probability": 0.4541,
+        "observed_rate": 0.4482,
+        "ece_10_bins": 0.062336
+      },
+      "calibrated": {
+        "n": 299,
+        "brier": 0.225289,
+        "log_loss": 0.706457,
+        "mean_probability": 0.4303,
+        "observed_rate": 0.4482,
+        "ece_10_bins": 0.061645
+      }
+    },
+    "249.5": {
+      "raw": {
+        "n": 299,
+        "brier": 0.207063,
+        "log_loss": 0.599623,
+        "mean_probability": 0.3338,
+        "observed_rate": 0.3478,
+        "ece_10_bins": 0.065578
+      },
+      "calibrated": {
+        "n": 299,
+        "brier": 0.211769,
+        "log_loss": 0.700762,
+        "mean_probability": 0.3358,
+        "observed_rate": 0.3478,
+        "ece_10_bins": 0.048952
+      }
+    },
+    "274.5": {
+      "raw": {
+        "n": 299,
+        "brier": 0.170368,
+        "log_loss": 0.516019,
+        "mean_probability": 0.2289,
+        "observed_rate": 0.2408,
+        "ece_10_bins": 0.048599
+      },
+      "calibrated": {
+        "n": 299,
+        "brier": 0.171029,
+        "log_loss": 0.517432,
+        "mean_probability": 0.2038,
+        "observed_rate": 0.2408,
+        "ece_10_bins": 0.047986
+      }
+    },
+    "299.5": {
+      "raw": {
+        "n": 299,
+        "brier": 0.118645,
+        "log_loss": 0.400133,
+        "mean_probability": 0.1469,
+        "observed_rate": 0.1405,
+        "ece_10_bins": 0.039413
+      },
+      "calibrated": {
+        "n": 299,
+        "brier": 0.118265,
+        "log_loss": 0.403125,
+        "mean_probability": 0.1091,
+        "observed_rate": 0.1405,
+        "ece_10_bins": 0.031379
+      }
+    }
+  },
+  "holdout_reliability_raw": [
+    {
+      "bin": 0,
+      "n": 162,
+      "mean_pred": 0.05706,
+      "observed": 0.09259
+    },
+    {
+      "bin": 1,
+      "n": 261,
+      "mean_pred": 0.15005,
+      "observed": 0.14943
+    },
+    {
+      "bin": 2,
+      "n": 266,
+      "mean_pred": 0.25006,
+      "observed": 0.21429
+    },
+    {
+      "bin": 3,
+      "n": 241,
+      "mean_pred": 0.35052,
+      "observed": 0.36515
+    },
+    {
+      "bin": 4,
+      "n": 192,
+      "mean_pred": 0.45124,
+      "observed": 0.47396
+    },
+    {
+      "bin": 5,
+      "n": 170,
+      "mean_pred": 0.54955,
+      "observed": 0.58235
+    },
+    {
+      "bin": 6,
+      "n": 120,
+      "mean_pred": 0.64966,
+      "observed": 0.69167
+    },
+    {
+      "bin": 7,
+      "n": 66,
+      "mean_pred": 0.74039,
+      "observed": 0.69697
+    },
+    {
+      "bin": 8,
+      "n": 17,
+      "mean_pred": 0.84168,
+      "observed": 0.52941
+    },
+    {
+      "bin": 9,
+      "n": 0,
+      "mean_pred": null,
+      "observed": null
+    }
+  ],
+  "holdout_reliability_calibrated": [
+    {
+      "bin": 0,
+      "n": 167,
+      "mean_pred": 0.04927,
+      "observed": 0.08982
+    },
+    {
+      "bin": 1,
+      "n": 404,
+      "mean_pred": 0.15346,
+      "observed": 0.15842
+    },
+    {
+      "bin": 2,
+      "n": 287,
+      "mean_pred": 0.26628,
+      "observed": 0.31707
+    },
+    {
+      "bin": 3,
+      "n": 92,
+      "mean_pred": 0.34265,
+      "observed": 0.36957
+    },
+    {
+      "bin": 4,
+      "n": 245,
+      "mean_pred": 0.45276,
+      "observed": 0.51429
+    },
+    {
+      "bin": 5,
+      "n": 111,
+      "mean_pred": 0.54969,
+      "observed": 0.62162
+    },
+    {
+      "bin": 6,
+      "n": 166,
+      "mean_pred": 0.66631,
+      "observed": 0.68072
+    },
+    {
+      "bin": 7,
+      "n": 0,
+      "mean_pred": null,
+      "observed": null
+    },
+    {
+      "bin": 8,
+      "n": 0,
+      "mean_pred": null,
+      "observed": null
+    },
+    {
+      "bin": 9,
+      "n": 23,
+      "mean_pred": 0.9999,
+      "observed": 0.65217
+    }
+  ],
+  "validation_n_player_games": 584,
+  "holdout_n_player_games": 299
+}
