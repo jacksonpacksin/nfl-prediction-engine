@@ -1,0 +1,31 @@
+name: NFL near-kickoff market snapshots
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '*/15 * * * *'
+permissions:
+  contents: write
+concurrency:
+  group: nfl-market-snapshots
+  cancel-in-progress: false
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Capture near-kickoff order books
+        run: python near_kickoff_capture.py
+      - name: Publish snapshots
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/kalshi_orderbook_snapshots.jsonl data/near_kickoff_status.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Capture near-kickoff Kalshi order books"
+            git pull --rebase origin main
+            git push
+          fi
