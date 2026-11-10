@@ -19,8 +19,12 @@ jobs:
           python-version: '3.11'
           cache: pip
       - run: pip install -r requirements.txt
+      - name: Test v0.5 validation logic
+        run: python -m unittest -v test_validation_v05.py
       - name: Download and backtest NFL data
         run: python pipeline.py
+      - name: Benchmark and validate v0.5 models
+        run: python validation_v05.py
       - name: Publish data
         run: |
           git config user.name "github-actions[bot]"
