@@ -25,9 +25,13 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/kalshi_orderbook_snapshots.jsonl data/near_kickoff_status.json
+          # The quote file is intentionally absent when no eligible markets exist.
+          git add data/near_kickoff_status.json
+          if [ -f data/kalshi_orderbook_snapshots.jsonl ]; then
+            git add data/kalshi_orderbook_snapshots.jsonl
+          fi
           if ! git diff --cached --quiet; then
             git commit -m "Capture near-kickoff Kalshi order books"
             git pull --rebase origin main
-            git push
+            git push origin HEAD:main
           fi
