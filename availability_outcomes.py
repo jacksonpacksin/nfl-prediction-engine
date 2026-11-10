@@ -16,9 +16,11 @@ def freeze(records,previous,now):
     added=[]
     for r in records:
         key=(r.get("game_id"),r.get("player_id"))
-        try:at=parse_utc(r["forecast_created_utc"])
+        try:
+            at=parse_utc(r["forecast_created_utc"])
+            kickoff=parse_utc(r["kickoff_utc"])
         except (KeyError,ValueError,TypeError):continue
-        if not all(key) or key in seen or at>now:continue
+        if not all(key) or key in seen or at>now or now>=kickoff or at>=kickoff:continue
         # Existing forecasts are not eligible for retrospective reconstruction.
         if now-at>timedelta(hours=12):continue
         added.append({**r,"first_frozen_utc":now.isoformat(),
@@ -33,10 +35,9 @@ def reconcile(frozen,logs,now):
     for r in frozen:
         key=(r["game_id"],r["player_id"])
         try:
-            # Do not evaluate an outcome before the forecast's calendar game is over.
-            game_day=datetime.strptime(r["game_id"][:4],"%Y").year
-            if game_day>now.year:continue
-        except (ValueError,TypeError):continue
+            kickoff=parse_utc(r["kickoff_utc"])
+            if now<kickoff+timedelta(hours=5):continue
+        except (ValueError,TypeError,KeyError):continue
         log=observed.get(key)
         if not log:status="UNKNOWN_NO_PLAYER_GAME_STAT";outcome=None
         else:
