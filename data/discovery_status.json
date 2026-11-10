@@ -1,1 +1,8 @@
-{"captured_utc": "2026-11-10T23:09:42.944206+00:00", "status": "ERROR", "error": "HTTP Error 429: Too Many Requests"}
+{
+  "captured_utc": "2026-11-10T23:11:59.029620+00:00",
+  "markets_scanned": 3000,
+  "candidates": 0,
+  "possibly_truncated": true,
+  "status": "CANDIDATES_ONLY",
+  "note": "No automatic contract-to-player matching or verified settlement rules. Screen may miss markets outside page cap."
+}
