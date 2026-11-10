@@ -31,7 +31,10 @@ def availability(forecast,injuries,starters,max_age_hours=72):
 
 def run():
     root=Path("data");starters_file=Path("config/confirmed_starters.csv")
-    with starters_file.open(newline="") as f:starters=list(csv.DictReader(f)) if starters_file.exists() else []
+    starters=[]
+    if starters_file.exists():
+        with starters_file.open(newline="") as f:
+            starters=list(csv.DictReader(f))
     forecasts=load_jsonl(root/"pregame_forecast_snapshots.jsonl")
     injuries=load_jsonl(root/"injury_snapshots.jsonl")
     # Only the latest capture for each unique pregame forecast model/player/game.
