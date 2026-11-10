@@ -20,7 +20,7 @@ jobs:
           cache: pip
       - run: pip install -r requirements.txt
       - name: Test v0.5 validation logic
-        run: python -m unittest -v test_validation_v05.py test_market.py test_research_v07.py test_reconciliation.py test_identity_capture.py test_external_sources.py test_free_sources.py test_availability_confidence.py test_availability_outcomes.py
+        run: python -m unittest -v test_validation_v05.py test_market.py test_research_v07.py test_reconciliation.py test_identity_capture.py test_external_sources.py test_free_sources.py test_availability_confidence.py test_availability_outcomes.py test_kalshi_research_bot.py
       - name: Download and backtest NFL data
         run: python pipeline.py
       - name: Benchmark and validate v0.5 models
