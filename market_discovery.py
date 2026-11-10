@@ -7,8 +7,8 @@ from urllib.parse import urlencode
 from market_capture import http_json,orderbook_prices,append_jsonl,now_utc
 
 # Conservative screening: must mention NFL plus a QB passing-yards phrase.
-NFL=re.compile(r"\\b(NFL|football|passing yards|pass yards|quarterback)\\b",re.I)
-PASS=re.compile(r"\\b(pass(?:ing)? yards?|yards? pass(?:ing)?)\\b",re.I)
+NFL=re.compile(r"\b(NFL|football|passing yards|pass yards|quarterback)\b",re.I)
+PASS=re.compile(r"\b(pass(?:ing)? yards?|yards? pass(?:ing)?)\b",re.I)
 def candidates(markets):
     result=[]
     for m in markets:
