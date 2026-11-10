@@ -26,7 +26,8 @@ def availability(forecast,injuries,starters,max_age_hours=72):
         "injury_report_status":latest.get("report_status") if latest else None,
         "injury_practice_status":latest.get("practice_status") if latest else None,
         "injury_source_capture_utc":latest.get("captured_utc") if latest else None,
-        "actionable":bool(starter and latest),
+        "injury_red_flag":bool(latest and str(latest.get("report_status") or "").strip().lower() in ("out","doubtful","injured reserve","ir")),
+        "actionable":bool(starter and latest and str(latest.get("report_status") or "").strip().lower() not in ("out","doubtful","injured reserve","ir")),
         "warning":"Source report and starter attestation are not guarantees of participation."}
 
 def run():
