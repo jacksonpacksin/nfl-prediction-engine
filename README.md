@@ -153,3 +153,11 @@ A read-only research dashboard is implemented in `dashboard.py`. It displays upc
 5. Run the repository's GitHub Actions **NFL data refresh** workflow to update the committed `data/` snapshots. Community Cloud may need a reboot or redeploy to pick up newly committed data.
 
 The dashboard is **public if deployed as a public app**; never store credentials or private trading information in tracked data files. The app itself has no Kalshi authentication or execution capability. Deployment is a separate user-authorized action in Streamlit's hosting account; committing code does not create a live website.
+
+## v1.5 independent Kalshi research chatbot (free)
+
+The Streamlit dashboard now includes a **Research chatbot** tab powered by `kalshi_research_bot.py`. This is a deterministic, evidence-grounded question-and-answer interface with **no LLM subscription, external API key, or trading credentials**. It can explain saved QB availability evidence, validation limitations, and Kalshi research readiness.
+
+For a pick request, it refuses to recommend a YES/NO trade without a recent (15-minute) quote on a manually reviewed contract; even with such a quote, it does **not** issue a pick without independently established forecast/settlement/starter/fee/execution prerequisites. A review flag or positive model estimate alone is not proof of executable edge. The bot does not fetch live news, place orders, or independently certify market mappings. Four unit tests check missing, stale, unreviewed and reviewed-but-incomplete market evidence.
+
+This is a useful **no-cost research assistant**, not a generative autonomous agent. It will not supply live picks until verified market mappings, source-backed starter evidence, and prospective edge validation exist. Deploy the Streamlit app as described above to use the chat UI.
