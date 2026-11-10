@@ -81,3 +81,14 @@ The scheduled workflow now runs `contract_reconciliation.py`, `availability_evid
 **Important:** The reviewer must confirm threshold semantics, void/DNP rules, event identity, and any unusual settlement definitions before marking `rules_verified=true`. Automatic rule verification, independent starting-QB verification, and fully automated player mapping are NOT implemented; these require trustworthy external identity/lineup feeds and human review. The settlement cross-check is restricted to plain OVER/UNDER passing yards. Never use these results to claim an executable edge: midpoint comparisons are not fills, and statistical intervals require 30+ independent player-games.
 
 **Activation:** Run GitHub Actions → NFL data refresh. Inspect all three new status files and the test log. A successful workflow may still report zero verified mappings or settlements, correctly reflecting missing attestations.
+
+## v0.9: identity candidates and near-kickoff capture
+
+- `identity_matching.py` compares complete normalized player names in discovered Kalshi market descriptions against GSIS `player_id` from prospectively captured QB forecasts. Unique names yield **IDENTITY_CANDIDATE_ONLY**, not verified settlement, team, matchup, threshold or confirmed starter. Ambiguous multiple games are blocked. Output: `data/identity_matching_status.json`.
+- `near_kickoff_capture.py` captures full-depth Kalshi orderbooks (both bid sides) for up to 80 discovered market candidates when an upcoming NFL kickoff is within six hours. Quotes include independent UTC capture timestamps and are explicitly marked unverified candidates. Output: `data/near_kickoff_status.json` and append-only `data/kalshi_orderbook_snapshots.jsonl`.
+- `.github/workflows/near-kickoff.yml` requests polling every 15 minutes. **GitHub scheduled workflows are best-effort and can run late or be skipped.** The collector does not run continuously and is not guaranteed to catch the final pregame quote. This frequent workflow may increase Git repository size and GitHub Actions usage.
+- Availability checks now flag captured OUT, DOUBTFUL and injured-reserve reports as blocking the `actionable` evidence flag, while preserving the original report status.
+
+**Unresolved:** A trustworthy independently authenticated starting-quarterback feed is NOT connected. The existing `config/confirmed_starters.csv` source-attestation path is required for starter verification. Identity candidates do not automatically become approved contract mappings; reviewed rules and exact threshold semantics remain mandatory. The system still does not automatically trade.
+
+To activate, manually run both GitHub Actions workflows once and inspect `data/identity_matching_status.json`, `data/availability_status.json`, and `data/near_kickoff_status.json`. No new live run has been verified as of this commit.
