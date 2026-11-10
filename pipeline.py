@@ -62,7 +62,8 @@ def collect(now):
             yards=r.get("passing_yards")
             if attempts is None or yards is None:raise ValueError("Missing QB passing data")
             attempts=int(attempts);yards=int(yards)
-            if attempts<0 or yards<0:raise ValueError("Negative QB stats")
+            if attempts<0:raise ValueError("Negative QB passing attempts")
+            # Passing yards can legitimately be negative; preserve the source value.
             all_rows.append(dict(player=str(r.get("player_display_name") or r.get("player_name") or pid),player_id=pid,season=season,week=week,game_id=gid,game_date=day,team=team,opponent=opponent,pass_attempts=attempts,pass_yards=yards,source_url=SOURCE,retrieved_utc=now.isoformat(),verified="true"))
             count+=1
         meta.append(dict(season=season,rows=count))
