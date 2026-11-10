@@ -47,7 +47,7 @@ def run():
         quotes=load_jsonl(root/"kalshi_orderbook_snapshots.jsonl")
         with (root/"qb_game_logs.csv").open(newline="") as f:games=list(csv.DictReader(f))
         for mapping in reviews:
-            if mapping.get("rules_verified")!="true":continue
+            if mapping.get("rules_verified")!="true" or not all(mapping.get(k) for k in ("reviewer","reviewed_utc","rules_url","rules_sha256","threshold_rule_quote","settlement_source")):continue
             ticker=mapping["ticker"]
             try:
                 market=http_json("/markets/"+ticker).get("market",{})
