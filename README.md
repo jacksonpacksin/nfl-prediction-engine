@@ -140,3 +140,16 @@ Five unit tests cover missing data, positive projected indicators without confir
 After kickoff plus five hours, it reconciles against downloaded nflverse QB passing-attempt logs. A recorded passing attempt indicates **observed passing activity**, not an official start. Zero recorded attempts means zero passing attempts in the source row, not definitive inactivity. A missing player-game row is always `UNKNOWN_NO_PLAYER_GAME_STAT` and excluded from the denominator; this creates potential selection bias. The validation report includes LOW/MID/HIGH score-band observed passing-activity rates, known and unknown counts, and only tests whether observed rates are monotonic when all three bins contain at least 30 observations. This is a descriptive threshold, **not** proof of calibration or predictive validity. We still need authoritative game participation / official starting-QB outcomes and unbiased negative labels for proper calibration.
 
 No confidence score is used to adjust market probabilities, mark a player as a confirmed starter, or place a trade. Five tests cover pre-kickoff freeze, missing rows, one-attempt activity, delayed outcomes, and sample-size guard.
+
+## Free website: Streamlit Community Cloud
+
+A read-only research dashboard is implemented in `dashboard.py`. It displays upcoming QB forecasts, uncalibrated availability evidence, separately sourced starter attestations, Kalshi candidate contracts and orderbook snapshots, prospective passing-activity validation, and readiness blockers. It **never places orders** or adjusts probabilities based on availability confidence.
+
+**Deploy for free:**
+1. Visit https://share.streamlit.io/ and sign in with GitHub.
+2. Select **Create app → Deploy a public app from GitHub** (labels may vary).
+3. Repository: `jacksonpacksin/nfl-prediction-engine`; branch: `main`; main file path: `dashboard.py`.
+4. Choose an available app URL and deploy. Streamlit installs dependencies from root `requirements.txt` automatically.
+5. Run the repository's GitHub Actions **NFL data refresh** workflow to update the committed `data/` snapshots. Community Cloud may need a reboot or redeploy to pick up newly committed data.
+
+The dashboard is **public if deployed as a public app**; never store credentials or private trading information in tracked data files. The app itself has no Kalshi authentication or execution capability. Deployment is a separate user-authorized action in Streamlit's hosting account; committing code does not create a live website.
