@@ -92,3 +92,13 @@ The scheduled workflow now runs `contract_reconciliation.py`, `availability_evid
 **Unresolved:** A trustworthy independently authenticated starting-quarterback feed is NOT connected. The existing `config/confirmed_starters.csv` source-attestation path is required for starter verification. Identity candidates do not automatically become approved contract mappings; reviewed rules and exact threshold semantics remain mandatory. The system still does not automatically trade.
 
 To activate, manually run both GitHub Actions workflows once and inspect `data/identity_matching_status.json`, `data/availability_status.json`, and `data/near_kickoff_status.json`. No new live run has been verified as of this commit.
+
+## v1.0 operational hardening
+
+The main refresh now publishes `data/research_readiness.json`: upcoming game coverage, unique pregame forecasts, discovered Kalshi candidates, GSIS-name matches, recent quote availability, starter attestations, and verified settlements. **Market edge remains NOT_ESTABLISHED until independently verified settled point-in-time comparisons exist.**
+
+The 15-minute near-kickoff workflow now restricts polling to discovered candidates captured within the previous 24 hours, with an unambiguous player-name/GSIS game candidate match whose kickoff is within six hours. It excludes candidates with known expired close times. A matched name remains **not a certified contract mapping**. No automatic orders.
+
+**Operational limitation:** This stricter filter may produce zero quotes if discovery, pregame forecasts, or identity matching are stale or incomplete. That is intentional. The main workflow must run successfully before near-kickoff snapshots can be useful. No automated independent starter verification provider is connected; starter evidence still requires a sourced attestation.
+
+Run the main refresh workflow first, then the near-kickoff workflow. Verify their status JSON outputs and tests. GitHub Actions success confirms execution, not model validity or profitable edge.
