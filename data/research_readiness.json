@@ -1,0 +1,19 @@
+{
+  "generated_utc": "2026-11-10T23:00:07.446503+00:00",
+  "status": "RESEARCH_ONLY",
+  "upcoming_games": 14,
+  "unique_pregame_forecasts": 800,
+  "unique_discovered_candidates": 0,
+  "candidates_with_identity_match": 0,
+  "candidates_with_recent_executable_side": 0,
+  "player_games_with_attested_starter": 0,
+  "verified_settlements": 0,
+  "market_edge_status": "NOT_ESTABLISHED",
+  "blocking_reasons": [
+    "Name-to-GSIS candidate match does not establish exact game, threshold or settlement rules",
+    "No independently connected starter verification provider",
+    "Injury status is evidence-only, not probability-adjusted",
+    "No verified contemporaneous matched market forecast/settlement archive",
+    "Order-book snapshots are indicative and do not establish fills"
+  ]
+}
