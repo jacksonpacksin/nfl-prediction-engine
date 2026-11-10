@@ -1,0 +1,8 @@
+{
+  "captured_utc": "2026-11-10T22:54:05.311109+00:00",
+  "tickers_targeted": 0,
+  "quotes_captured": 0,
+  "errors": [],
+  "status": "CAPTURE_ONLY",
+  "warning": "Scheduled 15-minute polling is not guaranteed to execute on time; no contract identity/rules inferred."
+}
