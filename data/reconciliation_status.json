@@ -1,0 +1,5 @@
+{
+  "status": "BLOCKED_NO_REVIEWED_CONTRACTS",
+  "verified": 0,
+  "note": "Automated matching cannot independently certify Kalshi settlement rules."
+}

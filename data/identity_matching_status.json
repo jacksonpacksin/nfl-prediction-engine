@@ -1,0 +1,8 @@
+{
+  "status": "IDENTITY_CANDIDATES_ONLY",
+  "candidates": 0,
+  "unique_name_matches": 0,
+  "blocked_or_unmatched": 0,
+  "records": [],
+  "warning": "No automated settlement rule or starter certification. Human rule attestation required."
+}
