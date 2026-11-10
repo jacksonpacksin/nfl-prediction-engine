@@ -19,6 +19,12 @@ def availability(forecast,injuries,starters,max_age_hours=72):
             r.get("starter_confirmed","").lower()=="true" and r.get("source_url") and r.get("reviewer") and
             r.get("confirmed_utc") and parse_utc(r["confirmed_utc"])<=created]
     starter=max(attest,key=lambda r:r["confirmed_utc"]) if attest else None
+    provider=[r for r in starters if r.get("player_id")==pid and r.get("game_id")==forecast["game_id"]
+              and r.get("provider_status")=="CONFIRMED_CLAIM_NOT_INDEPENDENTLY_AUDITED"
+              and r.get("captured_utc") and parse_utc(r["captured_utc"])<=created
+              and parse_utc(r["confirmed_utc"])<=created and r.get("source_url")]
+    if not starter and provider:
+        starter=max(provider,key=lambda r:r["captured_utc"])
     return {"player_id":pid,"game_id":forecast["game_id"],"forecast_created_utc":forecast["forecast_created_utc"],
         "starter_status":"CONFIRMED_AS_OF_FORECAST" if starter else "UNVERIFIED",
         "starter_source":starter.get("source_url") if starter else None,
@@ -36,6 +42,10 @@ def run():
     if starters_file.exists():
         with starters_file.open(newline="") as f:
             starters=list(csv.DictReader(f))
+    provider_file=root/"independent_starter_feed.json"
+    if provider_file.exists():
+        try:starters.extend(json.loads(provider_file.read_text()))
+        except (ValueError,OSError):pass
     forecasts=load_jsonl(root/"pregame_forecast_snapshots.jsonl")
     injuries=load_jsonl(root/"injury_snapshots.jsonl")
     # Only the latest capture for each unique pregame forecast model/player/game.
