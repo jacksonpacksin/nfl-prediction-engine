@@ -5,6 +5,7 @@ Injury status never implies a confirmed starter. Missing/stale evidence => UNKNO
 import csv
 import json
 from pathlib import Path
+from datetime import timedelta
 from market_ev import load_jsonl,parse_utc
 
 def availability(forecast,injuries,starters,max_age_hours=72):
@@ -21,7 +22,7 @@ def availability(forecast,injuries,starters,max_age_hours=72):
     starter=max(attest,key=lambda r:r["confirmed_utc"]) if attest else None
     provider=[r for r in starters if r.get("player_id")==pid and r.get("game_id")==forecast["game_id"]
               and r.get("provider_status")=="CONFIRMED_CLAIM_NOT_INDEPENDENTLY_AUDITED"
-              and r.get("captured_utc") and parse_utc(r["captured_utc"])<=created
+              and r.get("captured_utc") and created-timedelta(hours=6)<=parse_utc(r["captured_utc"])<=created
               and parse_utc(r["confirmed_utc"])<=created and r.get("source_url")]
     if not starter and provider:
         starter=max(provider,key=lambda r:r["captured_utc"])
