@@ -102,3 +102,17 @@ The 15-minute near-kickoff workflow now restricts polling to discovered candidat
 **Operational limitation:** This stricter filter may produce zero quotes if discovery, pregame forecasts, or identity matching are stale or incomplete. That is intentional. The main workflow must run successfully before near-kickoff snapshots can be useful. No automated independent starter verification provider is connected; starter evidence still requires a sourced attestation.
 
 Run the main refresh workflow first, then the near-kickoff workflow. Verify their status JSON outputs and tests. GitHub Actions success confirms execution, not model validity or profitable edge.
+
+## v1.1 external starter-provider adapter and Kalshi rule fingerprints
+
+The main workflow now calls `starter_feed.py` and `contract_fingerprint.py` and runs four new tests.
+
+**Starter feed:** To activate, you must select and contract with a reputable independent NFL lineup/injury provider that offers an HTTPS JSON endpoint with verified *confirmed* starters and authoritative GSIS IDs. Set Actions repository variable `NFL_STARTER_FEED_URL` and Actions secret `NFL_STARTER_FEED_TOKEN`. Required JSON shape:
+```json
+{"updated_utc":"2026-11-15T16:00:00Z","starters":[{"game_id":"2026_11_KC_BUF","player_id":"00-0033873","team":"KC","status":"confirmed","source_url":"https://provider.example/record","confirmed_utc":"2026-11-15T16:00:00Z"}]}
+```
+The provider must map to the **exact nflverse game_id and GSIS player_id**. The adapter rejects projected/probable statuses, missing sources and stale confirmations, records when the system first observed a claim, and never treats later data as available to earlier forecasts. Its status is `data/starter_feed_status.json`. The feed is **not configured automatically**; no vendor credentials or subscriptions were created. An authenticated endpoint is a source claim, not independent proof that the provider is accurate.
+
+**Kalshi rule fingerprints:** For each `config/reviewed_contracts.csv` entry, `contract_fingerprint.py` re-fetches current Kalshi market metadata and checks a SHA-256 digest of the canonical fields `ticker,event_ticker,title,rules_primary,rules_secondary,strike_type,floor_strike,cap_strike`. Review CSV additionally requires `event_ticker,strike_type,floor_strike,cap_strike,source_game_reference` for this audit. Generate `rules_sha256` using `contract_fingerprint.fingerprint(market)` **only after independently reviewing** the full market rules and official NFL game identity. Missing or changed terms are BLOCKED. Status: `data/contract_fingerprint_status.json`. This check prevents silent rule drift; it cannot independently interpret complex void/DNP conditions or certify a human mapping.
+
+**Not yet fully connected:** No vetted external starter provider was supplied, and no manually reviewed Kalshi mappings were provided. The workflow must report zero verified records until those inputs exist. Rule fingerprint matches are an additional audit; they are not themselves trade authorization. No live orders are submitted.
