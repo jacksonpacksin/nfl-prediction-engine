@@ -59,6 +59,7 @@ def evaluate(f,injuries,depth,logs):
     else:label="WEAK_INDICATORS"
     return {"game_id":f["game_id"],"player_id":pid,"player":f.get("player"),
             "team":team,"forecast_created_utc":f["forecast_created_utc"],
+            "kickoff_utc":f.get("kickoff_utc"),
             "score":score,"score_out_of":100,"evidence_coverage_weight":coverage,
             "label":label,"factors":evidence,"model_version":"heuristic_v1_uncalibrated",
             "starter_confirmation":"NOT_ASSESSED_BY_THIS_SCORE",
