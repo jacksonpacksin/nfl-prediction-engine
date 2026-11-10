@@ -19,7 +19,11 @@ class IdentityAndCaptureTests(unittest.TestCase):
     def test_upcoming_game_capture_candidates(self):
         now=datetime(2026,11,15,12,tzinfo=timezone.utc)
         f=[{"game_id":"G","kickoff_utc":"2026-11-15T18:00:00Z"}]
-        self.assertEqual(target_tickers(f,[{"ticker":"T"}],now),["T"])
+        self.assertEqual(target_tickers(f,[{"ticker":"T","captured_utc":"2026-11-15T11:00:00Z"}],now),["T"])
+    def test_stale_candidate_excluded(self):
+        now=datetime(2026,11,15,12,tzinfo=timezone.utc)
+        f=[{"game_id":"G","kickoff_utc":"2026-11-15T18:00:00Z"}]
+        self.assertEqual(target_tickers(f,[{"ticker":"T","captured_utc":"2026-11-12T11:00:00Z"}],now),[])
     def test_past_kickoff_not_targeted(self):
         now=datetime(2026,11,15,19,tzinfo=timezone.utc)
         f=[{"game_id":"G","kickoff_utc":"2026-11-15T18:00:00Z"}]
