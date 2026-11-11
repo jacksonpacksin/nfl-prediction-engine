@@ -21,8 +21,8 @@
   ],
   "monotonic_observed_rates": null,
   "warning": "Passing activity is not confirmed starting status. Missing player rows are UNKNOWN. Selection bias and score calibration remain untested.",
-  "generated_utc": "2026-11-10T23:12:10.015058+00:00",
+  "generated_utc": "2026-11-11T02:52:21.757112+00:00",
   "frozen_player_games": 80,
-  "newly_frozen": 80,
+  "newly_frozen": 0,
   "records": []
 }
