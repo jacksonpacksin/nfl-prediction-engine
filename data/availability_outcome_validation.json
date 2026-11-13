@@ -1,7 +1,7 @@
 {
   "status": "INSUFFICIENT_PROSPECTIVE_DATA",
-  "known_outcomes": 0,
-  "unknown_outcomes": 0,
+  "known_outcomes": 1,
+  "unknown_outcomes": 5,
   "bins": [
     {
       "band": "LOW",
@@ -10,8 +10,8 @@
     },
     {
       "band": "MID",
-      "n": 0,
-      "passing_activity_rate": null
+      "n": 1,
+      "passing_activity_rate": 1.0
     },
     {
       "band": "HIGH",
@@ -21,8 +21,97 @@
   ],
   "monotonic_observed_rates": null,
   "warning": "Passing activity is not confirmed starting status. Missing player rows are UNKNOWN. Selection bias and score calibration remain untested.",
-  "generated_utc": "2026-11-13T03:28:01.281566+00:00",
+  "generated_utc": "2026-11-13T18:35:11.677922+00:00",
   "frozen_player_games": 85,
   "newly_frozen": 0,
-  "records": []
+  "records": [
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_id": "00-0031503",
+      "forecast_created_utc": "2026-11-10T23:12:06.935499+00:00",
+      "score": 22,
+      "label": "INSUFFICIENT_EVIDENCE",
+      "evidence_coverage_weight": 45,
+      "outcome": 0,
+      "outcome_status": "ZERO_PASS_ATTEMPTS_RECORDED",
+      "outcome_definition": "At least one recorded NFL passing attempt; NOT official start"
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_id": "00-0029263",
+      "forecast_created_utc": "2026-11-10T23:12:06.935499+00:00",
+      "score": null,
+      "label": "INSUFFICIENT_EVIDENCE",
+      "evidence_coverage_weight": 0,
+      "outcome": null,
+      "outcome_status": "UNKNOWN_NO_PLAYER_GAME_STAT",
+      "outcome_definition": "At least one recorded NFL passing attempt; NOT official start"
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_id": "00-0034177",
+      "forecast_created_utc": "2026-11-10T23:12:06.935499+00:00",
+      "score": null,
+      "label": "INSUFFICIENT_EVIDENCE",
+      "evidence_coverage_weight": 0,
+      "outcome": null,
+      "outcome_status": "UNKNOWN_NO_PLAYER_GAME_STAT",
+      "outcome_definition": "At least one recorded NFL passing attempt; NOT official start"
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_id": "00-0039923",
+      "forecast_created_utc": "2026-11-10T23:12:06.935499+00:00",
+      "score": 34,
+      "label": "INSUFFICIENT_EVIDENCE",
+      "evidence_coverage_weight": 45,
+      "outcome": 1,
+      "outcome_status": "OBSERVED_PASS_ATTEMPT",
+      "outcome_definition": "At least one recorded NFL passing attempt; NOT official start"
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_id": "00-0040691",
+      "forecast_created_utc": "2026-11-10T23:12:06.935499+00:00",
+      "score": 12,
+      "label": "INSUFFICIENT_EVIDENCE",
+      "evidence_coverage_weight": 20,
+      "outcome": null,
+      "outcome_status": "UNKNOWN_NO_PLAYER_GAME_STAT",
+      "outcome_definition": "At least one recorded NFL passing attempt; NOT official start"
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_id": "00-0032268",
+      "forecast_created_utc": "2026-11-10T23:12:06.935499+00:00",
+      "score": 12,
+      "label": "WEAK_INDICATORS",
+      "evidence_coverage_weight": 65,
+      "outcome": null,
+      "outcome_status": "UNKNOWN_NO_PLAYER_GAME_STAT",
+      "outcome_definition": "At least one recorded NFL passing attempt; NOT official start"
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_id": "00-0026300",
+      "forecast_created_utc": "2026-11-10T23:12:06.935499+00:00",
+      "score": null,
+      "label": "INSUFFICIENT_EVIDENCE",
+      "evidence_coverage_weight": 0,
+      "outcome": null,
+      "outcome_status": "UNKNOWN_NO_PLAYER_GAME_STAT",
+      "outcome_definition": "At least one recorded NFL passing attempt; NOT official start"
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "player_id": "00-0039910",
+      "forecast_created_utc": "2026-11-10T23:12:06.935499+00:00",
+      "score": 45,
+      "label": "HIGH_RISK_INJURY_FLAG",
+      "evidence_coverage_weight": 65,
+      "outcome": 1,
+      "outcome_status": "OBSERVED_PASS_ATTEMPT",
+      "outcome_definition": "At least one recorded NFL passing attempt; NOT official start"
+    }
+  ]
 }
