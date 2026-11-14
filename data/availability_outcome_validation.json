@@ -21,9 +21,9 @@
   ],
   "monotonic_observed_rates": null,
   "warning": "Passing activity is not confirmed starting status. Missing player rows are UNKNOWN. Selection bias and score calibration remain untested.",
-  "generated_utc": "2026-11-14T17:12:35.325793+00:00",
-  "frozen_player_games": 85,
-  "newly_frozen": 0,
+  "generated_utc": "2026-11-14T21:34:01.348307+00:00",
+  "frozen_player_games": 140,
+  "newly_frozen": 55,
   "records": [
     {
       "game_id": "2026_10_WAS_NYG",
