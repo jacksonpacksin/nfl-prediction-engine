@@ -1,7 +1,7 @@
 {
   "status": "INSUFFICIENT_PROSPECTIVE_DATA",
   "known_outcomes": 12,
-  "unknown_outcomes": 46,
+  "unknown_outcomes": 50,
   "bins": [
     {
       "band": "LOW",
@@ -21,9 +21,9 @@
   ],
   "monotonic_observed_rates": null,
   "warning": "Passing activity is not confirmed starting status. Missing player rows are UNKNOWN. Selection bias and score calibration remain untested.",
-  "generated_utc": "2026-11-17T05:07:49.442460+00:00",
-  "frozen_player_games": 154,
-  "newly_frozen": 0,
+  "generated_utc": "2026-11-17T19:55:10.022996+00:00",
+  "frozen_player_games": 155,
+  "newly_frozen": 1,
   "records": [
     {
       "game_id": "2026_10_WAS_NYG",
@@ -848,6 +848,61 @@
       "evidence_coverage_weight": 45,
       "outcome": 1,
       "outcome_status": "OBSERVED_PASS_ATTEMPT",
+      "outcome_definition": "At least one recorded NFL passing attempt; NOT official start"
+    },
+    {
+      "game_id": "2026_10_LAC_BAL",
+      "player_id": "00-0034796",
+      "forecast_created_utc": "2026-11-10T23:12:06.935499+00:00",
+      "score": 34,
+      "label": "WEAK_INDICATORS",
+      "evidence_coverage_weight": 65,
+      "outcome": null,
+      "outcome_status": "UNKNOWN_NO_PLAYER_GAME_STAT",
+      "outcome_definition": "At least one recorded NFL passing attempt; NOT official start"
+    },
+    {
+      "game_id": "2026_10_LAC_BAL",
+      "player_id": "00-0035993",
+      "forecast_created_utc": "2026-11-10T23:12:06.935499+00:00",
+      "score": 34,
+      "label": "HIGH_RISK_INJURY_FLAG",
+      "evidence_coverage_weight": 65,
+      "outcome": null,
+      "outcome_status": "UNKNOWN_NO_PLAYER_GAME_STAT",
+      "outcome_definition": "At least one recorded NFL passing attempt; NOT official start"
+    },
+    {
+      "game_id": "2026_10_LAC_BAL",
+      "player_id": "00-0036355",
+      "forecast_created_utc": "2026-11-10T23:12:06.935499+00:00",
+      "score": 45,
+      "label": "INSUFFICIENT_EVIDENCE",
+      "evidence_coverage_weight": 45,
+      "outcome": 1,
+      "outcome_status": "OBSERVED_PASS_ATTEMPT",
+      "outcome_definition": "At least one recorded NFL passing attempt; NOT official start"
+    },
+    {
+      "game_id": "2026_10_LAC_BAL",
+      "player_id": "00-0037012",
+      "forecast_created_utc": "2026-11-10T23:12:06.935499+00:00",
+      "score": 8,
+      "label": "INSUFFICIENT_EVIDENCE",
+      "evidence_coverage_weight": 20,
+      "outcome": null,
+      "outcome_status": "UNKNOWN_NO_PLAYER_GAME_STAT",
+      "outcome_definition": "At least one recorded NFL passing attempt; NOT official start"
+    },
+    {
+      "game_id": "2026_10_LAC_BAL",
+      "player_id": "00-0031800",
+      "forecast_created_utc": "2026-11-10T23:12:06.935499+00:00",
+      "score": null,
+      "label": "INSUFFICIENT_EVIDENCE",
+      "evidence_coverage_weight": 0,
+      "outcome": null,
+      "outcome_status": "UNKNOWN_NO_PLAYER_GAME_STAT",
       "outcome_definition": "At least one recorded NFL passing attempt; NOT official start"
     }
   ]
