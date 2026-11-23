@@ -1,5 +1,5 @@
 {
-  "retrieved_utc": "2026-11-23T03:44:57.512922+00:00",
+  "retrieved_utc": "2026-11-23T22:43:03.330635+00:00",
   "cutoff_exclusive": "2026-11-23",
   "source": "https://github.com/nflverse/nflverse-data/releases",
   "season_rows": [
@@ -21,9 +21,9 @@
     },
     {
       "season": 2026,
-      "rows": 377
+      "rows": 381
     }
   ],
-  "total_rows": 3001,
+  "total_rows": 3005,
   "notes": "Source-reported statistics, not independently audited. Current UTC day excluded."
 }
