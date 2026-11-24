@@ -1,9 +1,9 @@
 {
   "status": "evaluated",
-  "predictions": 11655,
-  "unique_player_games": 2331,
-  "brier": 0.187607,
-  "log_loss": 0.55698,
+  "predictions": 11665,
+  "unique_player_games": 2333,
+  "brier": 0.187687,
+  "log_loss": 0.557163,
   "model": "Prespecified shrinkage normal baseline; not calibrated",
   "caveat": "Historical box-score outcomes are not proof of a market edge. Multiple thresholds per game are correlated."
 }

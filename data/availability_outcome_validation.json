@@ -1,7 +1,7 @@
 {
   "status": "INSUFFICIENT_PROSPECTIVE_DATA",
-  "known_outcomes": 24,
-  "unknown_outcomes": 91,
+  "known_outcomes": 26,
+  "unknown_outcomes": 96,
   "bins": [
     {
       "band": "LOW",
@@ -10,7 +10,7 @@
     },
     {
       "band": "MID",
-      "n": 21,
+      "n": 23,
       "passing_activity_rate": 1.0
     },
     {
@@ -21,7 +21,7 @@
   ],
   "monotonic_observed_rates": null,
   "warning": "Passing activity is not confirmed starting status. Missing player rows are UNKNOWN. Selection bias and score calibration remain untested.",
-  "generated_utc": "2026-11-23T22:43:31.127119+00:00",
+  "generated_utc": "2026-11-24T06:59:16.379586+00:00",
   "frozen_player_games": 248,
   "newly_frozen": 0,
   "records": [
@@ -1640,6 +1640,83 @@
       "evidence_coverage_weight": 45,
       "outcome": 1,
       "outcome_status": "OBSERVED_PASS_ATTEMPT",
+      "outcome_definition": "At least one recorded NFL passing attempt; NOT official start"
+    },
+    {
+      "game_id": "2026_11_CIN_WAS",
+      "player_id": "00-0032268",
+      "forecast_created_utc": "2026-11-16T02:49:53.881734+00:00",
+      "score": 12,
+      "label": "INSUFFICIENT_EVIDENCE",
+      "evidence_coverage_weight": 20,
+      "outcome": null,
+      "outcome_status": "UNKNOWN_NO_PLAYER_GAME_STAT",
+      "outcome_definition": "At least one recorded NFL passing attempt; NOT official start"
+    },
+    {
+      "game_id": "2026_11_CIN_WAS",
+      "player_id": "00-0026300",
+      "forecast_created_utc": "2026-11-16T02:49:53.881734+00:00",
+      "score": null,
+      "label": "INSUFFICIENT_EVIDENCE",
+      "evidence_coverage_weight": 0,
+      "outcome": null,
+      "outcome_status": "UNKNOWN_NO_PLAYER_GAME_STAT",
+      "outcome_definition": "At least one recorded NFL passing attempt; NOT official start"
+    },
+    {
+      "game_id": "2026_11_CIN_WAS",
+      "player_id": "00-0039910",
+      "forecast_created_utc": "2026-11-16T02:49:53.881734+00:00",
+      "score": 45,
+      "label": "HIGH_RISK_INJURY_FLAG",
+      "evidence_coverage_weight": 65,
+      "outcome": 1,
+      "outcome_status": "OBSERVED_PASS_ATTEMPT",
+      "outcome_definition": "At least one recorded NFL passing attempt; NOT official start"
+    },
+    {
+      "game_id": "2026_11_CIN_WAS",
+      "player_id": "00-0026158",
+      "forecast_created_utc": "2026-11-16T02:49:53.881734+00:00",
+      "score": null,
+      "label": "INSUFFICIENT_EVIDENCE",
+      "evidence_coverage_weight": 0,
+      "outcome": null,
+      "outcome_status": "UNKNOWN_NO_PLAYER_GAME_STAT",
+      "outcome_definition": "At least one recorded NFL passing attempt; NOT official start"
+    },
+    {
+      "game_id": "2026_11_CIN_WAS",
+      "player_id": "00-0036442",
+      "forecast_created_utc": "2026-11-16T02:49:53.881734+00:00",
+      "score": 53,
+      "label": "MIXED_INDICATORS",
+      "evidence_coverage_weight": 65,
+      "outcome": 1,
+      "outcome_status": "OBSERVED_PASS_ATTEMPT",
+      "outcome_definition": "At least one recorded NFL passing attempt; NOT official start"
+    },
+    {
+      "game_id": "2026_11_CIN_WAS",
+      "player_id": "00-0034955",
+      "forecast_created_utc": "2026-11-16T02:49:53.881734+00:00",
+      "score": null,
+      "label": "INSUFFICIENT_EVIDENCE",
+      "evidence_coverage_weight": 0,
+      "outcome": null,
+      "outcome_status": "UNKNOWN_NO_PLAYER_GAME_STAT",
+      "outcome_definition": "At least one recorded NFL passing attempt; NOT official start"
+    },
+    {
+      "game_id": "2026_11_CIN_WAS",
+      "player_id": "00-0035100",
+      "forecast_created_utc": "2026-11-16T02:49:53.881734+00:00",
+      "score": null,
+      "label": "INSUFFICIENT_EVIDENCE",
+      "evidence_coverage_weight": 0,
+      "outcome": null,
+      "outcome_status": "UNKNOWN_NO_PLAYER_GAME_STAT",
       "outcome_definition": "At least one recorded NFL passing attempt; NOT official start"
     },
     {
