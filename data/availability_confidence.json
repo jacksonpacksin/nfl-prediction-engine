@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-26T05:09:46.801764+00:00",
+  "generated_utc": "2026-11-26T20:15:06.477851+00:00",
   "status": "HEURISTIC_UNCALIBRATED_NOT_STARTER_CONFIRMATION",
   "scored_player_games": 252,
   "records": [
@@ -5547,7 +5547,7 @@
       "player_id": "00-0033077",
       "player": "Dak Prescott",
       "team": "DAL",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-26T21:30:00+00:00",
       "score": 57,
       "score_out_of": 100,
@@ -5558,7 +5558,7 @@
           "points": 12,
           "maximum": 20,
           "status": null,
-          "captured_utc": "2026-11-26T05:09:22.320224+00:00"
+          "captured_utc": "2026-11-26T20:14:29.633059+00:00"
         },
         "depth_chart": {
           "points": null,
@@ -5582,7 +5582,7 @@
       "player_id": "00-0036389",
       "player": "Jalen Hurts",
       "team": "PHI",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-26T21:30:00+00:00",
       "score": 12,
       "score_out_of": 100,
@@ -5593,7 +5593,7 @@
           "points": 12,
           "maximum": 20,
           "status": null,
-          "captured_utc": "2026-11-26T05:09:22.320224+00:00"
+          "captured_utc": "2026-11-26T20:14:29.633059+00:00"
         },
         "depth_chart": {
           "points": null,
@@ -5615,7 +5615,7 @@
       "player_id": "00-0027973",
       "player": "Andy Dalton",
       "team": "PHI",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-26T21:30:00+00:00",
       "score": null,
       "score_out_of": 100,
@@ -5647,7 +5647,7 @@
       "player_id": "00-0038400",
       "player": "Tanner McKee",
       "team": "PHI",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-26T21:30:00+00:00",
       "score": 53,
       "score_out_of": 100,
@@ -5658,7 +5658,7 @@
           "points": 8,
           "maximum": 20,
           "status": "questionable",
-          "captured_utc": "2026-11-26T05:09:22.320224+00:00"
+          "captured_utc": "2026-11-26T20:14:29.633059+00:00"
         },
         "depth_chart": {
           "points": null,
@@ -5682,7 +5682,7 @@
       "player_id": "00-0039398",
       "player": "Joe Milton III",
       "team": "PHI",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-26T21:30:00+00:00",
       "score": 45,
       "score_out_of": 100,
@@ -5716,7 +5716,7 @@
       "player_id": "00-0034857",
       "player": "Josh Allen",
       "team": "BUF",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-27T01:20:00+00:00",
       "score": 45,
       "score_out_of": 100,
@@ -5750,7 +5750,7 @@
       "player_id": "00-0033869",
       "player": "Mitchell Trubisky",
       "team": "BUF",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-27T01:20:00+00:00",
       "score": null,
       "score_out_of": 100,
@@ -5782,7 +5782,7 @@
       "player_id": "00-0034401",
       "player": "Mike White",
       "team": "BUF",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-27T01:20:00+00:00",
       "score": null,
       "score_out_of": 100,
@@ -5814,7 +5814,7 @@
       "player_id": "00-0034577",
       "player": "Kyle Allen",
       "team": "BUF",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-27T01:20:00+00:00",
       "score": 0,
       "score_out_of": 100,
@@ -5848,7 +5848,7 @@
       "player_id": "00-0033873",
       "player": "Patrick Mahomes",
       "team": "KC",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-27T01:20:00+00:00",
       "score": 57,
       "score_out_of": 100,
@@ -5859,7 +5859,7 @@
           "points": 12,
           "maximum": 20,
           "status": null,
-          "captured_utc": "2026-11-26T05:09:22.320224+00:00"
+          "captured_utc": "2026-11-26T20:14:29.633059+00:00"
         },
         "depth_chart": {
           "points": null,
@@ -5883,7 +5883,7 @@
       "player_id": "00-0036945",
       "player": "Justin Fields",
       "team": "KC",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-27T01:20:00+00:00",
       "score": 12,
       "score_out_of": 100,
@@ -5894,7 +5894,7 @@
           "points": 12,
           "maximum": 20,
           "status": null,
-          "captured_utc": "2026-11-26T05:09:22.320224+00:00"
+          "captured_utc": "2026-11-26T20:14:29.633059+00:00"
         },
         "depth_chart": {
           "points": null,
@@ -5918,17 +5918,18 @@
       "player_id": "00-0023459",
       "player": "Aaron Rodgers",
       "team": "PIT",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-27T20:00:00+00:00",
-      "score": 45,
+      "score": 57,
       "score_out_of": 100,
-      "evidence_coverage_weight": 45,
-      "label": "INSUFFICIENT_EVIDENCE",
+      "evidence_coverage_weight": 65,
+      "label": "MIXED_INDICATORS",
       "factors": {
         "injury": {
-          "points": null,
+          "points": 12,
           "maximum": 20,
-          "reason": "No fresh as-of injury report"
+          "status": null,
+          "captured_utc": "2026-11-26T20:14:29.633059+00:00"
         },
         "depth_chart": {
           "points": null,
@@ -5952,7 +5953,7 @@
       "player_id": "00-0034771",
       "player": "Mason Rudolph",
       "team": "PIT",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-27T20:00:00+00:00",
       "score": 0,
       "score_out_of": 100,
@@ -5986,7 +5987,7 @@
       "player_id": "00-0035264",
       "player": "Jarrett Stidham",
       "team": "DEN",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-27T20:00:00+00:00",
       "score": null,
       "score_out_of": 100,
@@ -6018,7 +6019,7 @@
       "player_id": "00-0039732",
       "player": "Bo Nix",
       "team": "DEN",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-27T20:00:00+00:00",
       "score": 45,
       "score_out_of": 100,
@@ -6052,7 +6053,7 @@
       "player_id": "00-0026158",
       "player": "Joe Flacco",
       "team": "CIN",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-29T18:00:00+00:00",
       "score": null,
       "score_out_of": 100,
@@ -6084,7 +6085,7 @@
       "player_id": "00-0036442",
       "player": "Joe Burrow",
       "team": "CIN",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-29T18:00:00+00:00",
       "score": 53,
       "score_out_of": 100,
@@ -6095,7 +6096,7 @@
           "points": 8,
           "maximum": 20,
           "status": "questionable",
-          "captured_utc": "2026-11-26T05:09:22.320224+00:00"
+          "captured_utc": "2026-11-26T20:14:29.633059+00:00"
         },
         "depth_chart": {
           "points": null,
@@ -6119,7 +6120,7 @@
       "player_id": "00-0034955",
       "player": "Brett Rypien",
       "team": "CIN",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-29T18:00:00+00:00",
       "score": null,
       "score_out_of": 100,
@@ -6151,7 +6152,7 @@
       "player_id": "00-0035100",
       "player": "Jake Browning",
       "team": "CIN",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-29T18:00:00+00:00",
       "score": null,
       "score_out_of": 100,
@@ -6183,7 +6184,7 @@
       "player_id": "00-0031280",
       "player": "Derek Carr",
       "team": "NO",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-29T18:00:00+00:00",
       "score": null,
       "score_out_of": 100,
@@ -6215,7 +6216,7 @@
       "player_id": "00-0038998",
       "player": "Jake Haener",
       "team": "NO",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-29T18:00:00+00:00",
       "score": null,
       "score_out_of": 100,
@@ -6247,7 +6248,7 @@
       "player_id": "00-0039376",
       "player": "Spencer Rattler",
       "team": "NO",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-29T18:00:00+00:00",
       "score": 12,
       "score_out_of": 100,
@@ -6258,7 +6259,7 @@
           "points": 12,
           "maximum": 20,
           "status": null,
-          "captured_utc": "2026-11-26T05:09:22.320224+00:00"
+          "captured_utc": "2026-11-26T20:14:29.633059+00:00"
         },
         "depth_chart": {
           "points": null,
@@ -6280,7 +6281,7 @@
       "player_id": "00-0040743",
       "player": "Tyler Shough",
       "team": "NO",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-29T18:00:00+00:00",
       "score": 57,
       "score_out_of": 100,
@@ -6291,7 +6292,7 @@
           "points": 12,
           "maximum": 20,
           "status": null,
-          "captured_utc": "2026-11-26T05:09:22.320224+00:00"
+          "captured_utc": "2026-11-26T20:14:29.633059+00:00"
         },
         "depth_chart": {
           "points": null,
@@ -6315,7 +6316,7 @@
       "player_id": "00-0036898",
       "player": "Davis Mills",
       "team": "HOU",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-29T18:00:00+00:00",
       "score": 0,
       "score_out_of": 100,
@@ -6349,7 +6350,7 @@
       "player_id": "00-0039163",
       "player": "C.J. Stroud",
       "team": "HOU",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-29T18:00:00+00:00",
       "score": 45,
       "score_out_of": 100,
@@ -6383,7 +6384,7 @@
       "player_id": "00-0034796",
       "player": "Lamar Jackson",
       "team": "BAL",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-29T18:00:00+00:00",
       "score": 12,
       "score_out_of": 100,
@@ -6394,7 +6395,7 @@
           "points": 12,
           "maximum": 20,
           "status": null,
-          "captured_utc": "2026-11-26T05:09:22.320224+00:00"
+          "captured_utc": "2026-11-26T20:14:29.633059+00:00"
         },
         "depth_chart": {
           "points": null,
@@ -6418,7 +6419,7 @@
       "player_id": "00-0033119",
       "player": "Jacoby Brissett",
       "team": "BAL",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-29T18:00:00+00:00",
       "score": 57,
       "score_out_of": 100,
@@ -6429,7 +6430,7 @@
           "points": 12,
           "maximum": 20,
           "status": null,
-          "captured_utc": "2026-11-26T05:09:22.320224+00:00"
+          "captured_utc": "2026-11-26T20:14:29.633059+00:00"
         },
         "depth_chart": {
           "points": null,
@@ -6453,7 +6454,7 @@
       "player_id": "00-0035993",
       "player": "Tyler Huntley",
       "team": "BAL",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-29T18:00:00+00:00",
       "score": 30,
       "score_out_of": 100,
@@ -6464,7 +6465,7 @@
           "points": 0,
           "maximum": 20,
           "status": "out",
-          "captured_utc": "2026-11-26T05:09:22.320224+00:00"
+          "captured_utc": "2026-11-26T20:14:29.633059+00:00"
         },
         "depth_chart": {
           "points": null,
@@ -6488,7 +6489,7 @@
       "player_id": "00-0026143",
       "player": "Matt Ryan",
       "team": "IND",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-29T18:00:00+00:00",
       "score": null,
       "score_out_of": 100,
@@ -6520,7 +6521,7 @@
       "player_id": "00-0035710",
       "player": "Daniel Jones",
       "team": "IND",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-29T18:00:00+00:00",
       "score": 57,
       "score_out_of": 100,
@@ -6531,7 +6532,7 @@
           "points": 12,
           "maximum": 20,
           "status": null,
-          "captured_utc": "2026-11-26T05:09:22.320224+00:00"
+          "captured_utc": "2026-11-26T20:14:29.633059+00:00"
         },
         "depth_chart": {
           "points": null,
@@ -6555,7 +6556,7 @@
       "player_id": "00-0039164",
       "player": "Anthony Richardson",
       "team": "IND",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-29T18:00:00+00:00",
       "score": 12,
       "score_out_of": 100,
@@ -6566,7 +6567,7 @@
           "points": 12,
           "maximum": 20,
           "status": null,
-          "captured_utc": "2026-11-26T05:09:22.320224+00:00"
+          "captured_utc": "2026-11-26T20:14:29.633059+00:00"
         },
         "depth_chart": {
           "points": null,
@@ -6590,7 +6591,7 @@
       "player_id": "00-0031503",
       "player": "Jameis Winston",
       "team": "NYG",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-29T18:00:00+00:00",
       "score": 0,
       "score_out_of": 100,
@@ -6624,7 +6625,7 @@
       "player_id": "00-0029263",
       "player": "Russell Wilson",
       "team": "NYG",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-29T18:00:00+00:00",
       "score": null,
       "score_out_of": 100,
@@ -6656,7 +6657,7 @@
       "player_id": "00-0034177",
       "player": "Tim Boyle",
       "team": "NYG",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-29T18:00:00+00:00",
       "score": null,
       "score_out_of": 100,
@@ -6688,7 +6689,7 @@
       "player_id": "00-0039923",
       "player": "J.J. McCarthy",
       "team": "NYG",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-29T18:00:00+00:00",
       "score": 57,
       "score_out_of": 100,
@@ -6699,7 +6700,7 @@
           "points": 12,
           "maximum": 20,
           "status": null,
-          "captured_utc": "2026-11-26T05:09:22.320224+00:00"
+          "captured_utc": "2026-11-26T20:14:29.633059+00:00"
         },
         "depth_chart": {
           "points": null,
@@ -6723,7 +6724,7 @@
       "player_id": "00-0040691",
       "player": "Jaxson Dart",
       "team": "NYG",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-29T18:00:00+00:00",
       "score": 12,
       "score_out_of": 100,
@@ -6734,7 +6735,7 @@
           "points": 12,
           "maximum": 20,
           "status": null,
-          "captured_utc": "2026-11-26T05:09:22.320224+00:00"
+          "captured_utc": "2026-11-26T20:14:29.633059+00:00"
         },
         "depth_chart": {
           "points": null,
@@ -6756,7 +6757,7 @@
       "player_id": "00-0038128",
       "player": "Malik Willis",
       "team": "MIA",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-29T18:00:00+00:00",
       "score": 57,
       "score_out_of": 100,
@@ -6767,7 +6768,7 @@
           "points": 12,
           "maximum": 20,
           "status": null,
-          "captured_utc": "2026-11-26T05:09:22.320224+00:00"
+          "captured_utc": "2026-11-26T20:14:29.633059+00:00"
         },
         "depth_chart": {
           "points": null,
@@ -6791,7 +6792,7 @@
       "player_id": "00-0037013",
       "player": "Zach Wilson",
       "team": "MIA",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-29T18:00:00+00:00",
       "score": null,
       "score_out_of": 100,
@@ -6823,7 +6824,7 @@
       "player_id": "00-0037327",
       "player": "Skylar Thompson",
       "team": "MIA",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-29T18:00:00+00:00",
       "score": null,
       "score_out_of": 100,
@@ -6855,7 +6856,7 @@
       "player_id": "00-0030565",
       "player": "Geno Smith",
       "team": "NYJ",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-29T18:00:00+00:00",
       "score": 57,
       "score_out_of": 100,
@@ -6866,7 +6867,7 @@
           "points": 12,
           "maximum": 20,
           "status": null,
-          "captured_utc": "2026-11-26T05:09:22.320224+00:00"
+          "captured_utc": "2026-11-26T20:14:29.633059+00:00"
         },
         "depth_chart": {
           "points": null,
@@ -6890,7 +6891,7 @@
       "player_id": "00-0032156",
       "player": "Trevor Siemian",
       "team": "NYJ",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-29T18:00:00+00:00",
       "score": null,
       "score_out_of": 100,
@@ -6922,7 +6923,7 @@
       "player_id": "00-0029604",
       "player": "Kirk Cousins",
       "team": "MIN",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-29T18:00:00+00:00",
       "score": 45,
       "score_out_of": 100,
@@ -6956,7 +6957,7 @@
       "player_id": "00-0032950",
       "player": "Carson Wentz",
       "team": "MIN",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-29T18:00:00+00:00",
       "score": 34,
       "score_out_of": 100,
@@ -6967,7 +6968,7 @@
           "points": 12,
           "maximum": 20,
           "status": null,
-          "captured_utc": "2026-11-26T05:09:22.320224+00:00"
+          "captured_utc": "2026-11-26T20:14:29.633059+00:00"
         },
         "depth_chart": {
           "points": null,
@@ -6991,7 +6992,7 @@
       "player_id": "00-0035228",
       "player": "Kyler Murray",
       "team": "MIN",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-29T18:00:00+00:00",
       "score": 45,
       "score_out_of": 100,
@@ -7002,7 +7003,7 @@
           "points": 0,
           "maximum": 20,
           "status": "out",
-          "captured_utc": "2026-11-26T05:09:22.320224+00:00"
+          "captured_utc": "2026-11-26T20:14:29.633059+00:00"
         },
         "depth_chart": {
           "points": null,
@@ -7026,7 +7027,7 @@
       "player_id": "00-0040494",
       "player": "Max Brosmer",
       "team": "MIN",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-29T18:00:00+00:00",
       "score": 0,
       "score_out_of": 100,
@@ -7060,7 +7061,7 @@
       "player_id": "00-0036212",
       "player": "Tua Tagovailoa",
       "team": "ATL",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-29T18:00:00+00:00",
       "score": 0,
       "score_out_of": 100,
@@ -7071,7 +7072,7 @@
           "points": 0,
           "maximum": 20,
           "status": "out",
-          "captured_utc": "2026-11-26T05:09:22.320224+00:00"
+          "captured_utc": "2026-11-26T20:14:29.633059+00:00"
         },
         "depth_chart": {
           "points": null,
@@ -7093,7 +7094,7 @@
       "player_id": "00-0033662",
       "player": "Cooper Rush",
       "team": "ATL",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-29T18:00:00+00:00",
       "score": 12,
       "score_out_of": 100,
@@ -7104,7 +7105,7 @@
           "points": 12,
           "maximum": 20,
           "status": null,
-          "captured_utc": "2026-11-26T05:09:22.320224+00:00"
+          "captured_utc": "2026-11-26T20:14:29.633059+00:00"
         },
         "depth_chart": {
           "points": null,
@@ -7126,7 +7127,7 @@
       "player_id": "00-0039917",
       "player": "Michael Penix Jr.",
       "team": "ATL",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-29T18:00:00+00:00",
       "score": 45,
       "score_out_of": 100,
@@ -7137,7 +7138,7 @@
           "points": 0,
           "maximum": 20,
           "status": "out",
-          "captured_utc": "2026-11-26T05:09:22.320224+00:00"
+          "captured_utc": "2026-11-26T20:14:29.633059+00:00"
         },
         "depth_chart": {
           "points": null,
@@ -7161,7 +7162,7 @@
       "player_id": "00-0036971",
       "player": "Trevor Lawrence",
       "team": "JAX",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-29T18:00:00+00:00",
       "score": 34,
       "score_out_of": 100,
@@ -7195,7 +7196,7 @@
       "player_id": "00-0033936",
       "player": "C.J. Beathard",
       "team": "JAX",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-29T18:00:00+00:00",
       "score": null,
       "score_out_of": 100,
@@ -7227,7 +7228,7 @@
       "player_id": "00-0033319",
       "player": "Nick Mullens",
       "team": "JAX",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-29T18:00:00+00:00",
       "score": null,
       "score_out_of": 100,
@@ -7259,7 +7260,7 @@
       "player_id": "00-0029701",
       "player": "Ryan Tannehill",
       "team": "TEN",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-29T18:00:00+00:00",
       "score": null,
       "score_out_of": 100,
@@ -7291,7 +7292,7 @@
       "player_id": "00-0039152",
       "player": "Will Levis",
       "team": "TEN",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-29T18:00:00+00:00",
       "score": null,
       "score_out_of": 100,
@@ -7323,7 +7324,7 @@
       "player_id": "00-0040676",
       "player": "Cam Ward",
       "team": "TEN",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-29T18:00:00+00:00",
       "score": 45,
       "score_out_of": 100,
@@ -7357,7 +7358,7 @@
       "player_id": "00-0032436",
       "player": "Jeff Driskel",
       "team": "CLE",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-30T01:20:00+00:00",
       "score": null,
       "score_out_of": 100,
@@ -7389,7 +7390,7 @@
       "player_id": "00-0038108",
       "player": "Bailey Zappe",
       "team": "CLE",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-30T01:20:00+00:00",
       "score": null,
       "score_out_of": 100,
@@ -7421,7 +7422,7 @@
       "player_id": "00-0033275",
       "player": "PJ Walker",
       "team": "CLE",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-30T01:20:00+00:00",
       "score": null,
       "score_out_of": 100,
@@ -7453,7 +7454,7 @@
       "player_id": "00-0033537",
       "player": "Deshaun Watson",
       "team": "CLE",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-30T01:20:00+00:00",
       "score": 53,
       "score_out_of": 100,
@@ -7464,7 +7465,7 @@
           "points": 8,
           "maximum": 20,
           "status": "questionable",
-          "captured_utc": "2026-11-26T05:09:22.320224+00:00"
+          "captured_utc": "2026-11-26T20:14:29.633059+00:00"
         },
         "depth_chart": {
           "points": null,
@@ -7488,7 +7489,7 @@
       "player_id": "00-0038583",
       "player": "Dorian Thompson-Robinson",
       "team": "CLE",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-30T01:20:00+00:00",
       "score": null,
       "score_out_of": 100,
@@ -7520,7 +7521,7 @@
       "player_id": "00-0040704",
       "player": "Dillon Gabriel",
       "team": "CLE",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-30T01:20:00+00:00",
       "score": 0,
       "score_out_of": 100,
@@ -7531,7 +7532,7 @@
           "points": 0,
           "maximum": 20,
           "status": "out",
-          "captured_utc": "2026-11-26T05:09:22.320224+00:00"
+          "captured_utc": "2026-11-26T20:14:29.633059+00:00"
         },
         "depth_chart": {
           "points": null,
@@ -7553,7 +7554,7 @@
       "player_id": "00-0040668",
       "player": "Shedeur Sanders",
       "team": "CLE",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-30T01:20:00+00:00",
       "score": 22,
       "score_out_of": 100,
@@ -7587,7 +7588,7 @@
       "player_id": "00-0038122",
       "player": "Desmond Ridder",
       "team": "LV",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-30T01:20:00+00:00",
       "score": null,
       "score_out_of": 100,
@@ -7619,7 +7620,7 @@
       "player_id": "00-0038579",
       "player": "Aidan O'Connell",
       "team": "LV",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-30T01:20:00+00:00",
       "score": 8,
       "score_out_of": 100,
@@ -7630,7 +7631,7 @@
           "points": 8,
           "maximum": 20,
           "status": "questionable",
-          "captured_utc": "2026-11-26T05:09:22.320224+00:00"
+          "captured_utc": "2026-11-26T20:14:29.633059+00:00"
         },
         "depth_chart": {
           "points": null,
@@ -7652,7 +7653,7 @@
       "player_id": "00-0035289",
       "player": "Gardner Minshew",
       "team": "ARI",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-29T21:25:00+00:00",
       "score": 45,
       "score_out_of": 100,
@@ -7686,7 +7687,7 @@
       "player_id": "00-0032268",
       "player": "Marcus Mariota",
       "team": "WAS",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-29T21:25:00+00:00",
       "score": 12,
       "score_out_of": 100,
@@ -7697,7 +7698,7 @@
           "points": 12,
           "maximum": 20,
           "status": null,
-          "captured_utc": "2026-11-26T05:09:22.320224+00:00"
+          "captured_utc": "2026-11-26T20:14:29.633059+00:00"
         },
         "depth_chart": {
           "points": null,
@@ -7719,7 +7720,7 @@
       "player_id": "00-0026300",
       "player": "Josh Johnson",
       "team": "ARI",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-29T21:25:00+00:00",
       "score": 45,
       "score_out_of": 100,
@@ -7753,7 +7754,7 @@
       "player_id": "00-0039910",
       "player": "Jayden Daniels",
       "team": "WAS",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-29T21:25:00+00:00",
       "score": 45,
       "score_out_of": 100,
@@ -7764,7 +7765,7 @@
           "points": 0,
           "maximum": 20,
           "status": "out",
-          "captured_utc": "2026-11-26T05:09:22.320224+00:00"
+          "captured_utc": "2026-11-26T20:14:29.633059+00:00"
         },
         "depth_chart": {
           "points": null,
@@ -7788,7 +7789,7 @@
       "player_id": "00-0036972",
       "player": "Mac Jones",
       "team": "SF",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-29T21:25:00+00:00",
       "score": 8,
       "score_out_of": 100,
@@ -7799,7 +7800,7 @@
           "points": 8,
           "maximum": 20,
           "status": "questionable",
-          "captured_utc": "2026-11-26T05:09:22.320224+00:00"
+          "captured_utc": "2026-11-26T20:14:29.633059+00:00"
         },
         "depth_chart": {
           "points": null,
@@ -7823,17 +7824,18 @@
       "player_id": "00-0037834",
       "player": "Brock Purdy",
       "team": "SF",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-29T21:25:00+00:00",
-      "score": 45,
+      "score": 57,
       "score_out_of": 100,
-      "evidence_coverage_weight": 45,
-      "label": "INSUFFICIENT_EVIDENCE",
+      "evidence_coverage_weight": 65,
+      "label": "MIXED_INDICATORS",
       "factors": {
         "injury": {
-          "points": null,
+          "points": 12,
           "maximum": 20,
-          "reason": "No fresh as-of injury report"
+          "status": null,
+          "captured_utc": "2026-11-26T20:14:29.633059+00:00"
         },
         "depth_chart": {
           "points": null,
@@ -7857,7 +7859,7 @@
       "player_id": "00-0034869",
       "player": "Sam Darnold",
       "team": "SEA",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-29T21:25:00+00:00",
       "score": 45,
       "score_out_of": 100,
@@ -7868,7 +7870,7 @@
           "points": 0,
           "maximum": 20,
           "status": "out",
-          "captured_utc": "2026-11-26T05:09:22.320224+00:00"
+          "captured_utc": "2026-11-26T20:14:29.633059+00:00"
         },
         "depth_chart": {
           "points": null,
@@ -7892,7 +7894,7 @@
       "player_id": "00-0037077",
       "player": "Sam Howell",
       "team": "SEA",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-29T21:25:00+00:00",
       "score": null,
       "score_out_of": 100,
@@ -7924,7 +7926,7 @@
       "player_id": "00-0035704",
       "player": "Drew Lock",
       "team": "SEA",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-29T21:25:00+00:00",
       "score": 57,
       "score_out_of": 100,
@@ -7935,7 +7937,7 @@
           "points": 12,
           "maximum": 20,
           "status": null,
-          "captured_utc": "2026-11-26T05:09:22.320224+00:00"
+          "captured_utc": "2026-11-26T20:14:29.633059+00:00"
         },
         "depth_chart": {
           "points": null,
@@ -7959,17 +7961,18 @@
       "player_id": "00-0036355",
       "player": "Justin Herbert",
       "team": "LAC",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-29T21:05:00+00:00",
-      "score": 45,
+      "score": 57,
       "score_out_of": 100,
-      "evidence_coverage_weight": 45,
-      "label": "INSUFFICIENT_EVIDENCE",
+      "evidence_coverage_weight": 65,
+      "label": "MIXED_INDICATORS",
       "factors": {
         "injury": {
-          "points": null,
+          "points": 12,
           "maximum": 20,
-          "reason": "No fresh as-of injury report"
+          "status": null,
+          "captured_utc": "2026-11-26T20:14:29.633059+00:00"
         },
         "depth_chart": {
           "points": null,
@@ -7993,7 +7996,7 @@
       "player_id": "00-0037012",
       "player": "Trey Lance",
       "team": "LAC",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-29T21:05:00+00:00",
       "score": 8,
       "score_out_of": 100,
@@ -8004,7 +8007,7 @@
           "points": 8,
           "maximum": 20,
           "status": "questionable",
-          "captured_utc": "2026-11-26T05:09:22.320224+00:00"
+          "captured_utc": "2026-11-26T20:14:29.633059+00:00"
         },
         "depth_chart": {
           "points": null,
@@ -8026,7 +8029,7 @@
       "player_id": "00-0031800",
       "player": "Taylor Heinicke",
       "team": "LAC",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-29T21:05:00+00:00",
       "score": null,
       "score_out_of": 100,
@@ -8058,7 +8061,7 @@
       "player_id": "00-0038476",
       "player": "Tommy DeVito",
       "team": "NE",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-29T21:05:00+00:00",
       "score": 22,
       "score_out_of": 100,
@@ -8092,7 +8095,7 @@
       "player_id": "00-0039851",
       "player": "Drake Maye",
       "team": "NE",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-11-29T21:05:00+00:00",
       "score": 46,
       "score_out_of": 100,
@@ -8103,7 +8106,7 @@
           "points": 12,
           "maximum": 20,
           "status": null,
-          "captured_utc": "2026-11-26T05:09:22.320224+00:00"
+          "captured_utc": "2026-11-26T20:14:29.633059+00:00"
         },
         "depth_chart": {
           "points": null,
@@ -8127,7 +8130,7 @@
       "player_id": "00-0034855",
       "player": "Baker Mayfield",
       "team": "TB",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-12-01T01:15:00+00:00",
       "score": 34,
       "score_out_of": 100,
@@ -8138,7 +8141,7 @@
           "points": 12,
           "maximum": 20,
           "status": null,
-          "captured_utc": "2026-11-26T05:09:22.320224+00:00"
+          "captured_utc": "2026-11-26T20:14:29.633059+00:00"
         },
         "depth_chart": {
           "points": null,
@@ -8162,7 +8165,7 @@
       "player_id": "00-0019596",
       "player": "Tom Brady",
       "team": "TB",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-12-01T01:15:00+00:00",
       "score": null,
       "score_out_of": 100,
@@ -8194,7 +8197,7 @@
       "player_id": "00-0031237",
       "player": "Teddy Bridgewater",
       "team": "TB",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-12-01T01:15:00+00:00",
       "score": null,
       "score_out_of": 100,
@@ -8226,7 +8229,7 @@
       "player_id": "00-0036928",
       "player": "Kyle Trask",
       "team": "TB",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-12-01T01:15:00+00:00",
       "score": null,
       "score_out_of": 100,
@@ -8258,7 +8261,7 @@
       "player_id": "00-0038102",
       "player": "Kenny Pickett",
       "team": "CAR",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-12-01T01:15:00+00:00",
       "score": 0,
       "score_out_of": 100,
@@ -8292,7 +8295,7 @@
       "player_id": "00-0039150",
       "player": "Bryce Young",
       "team": "CAR",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-12-01T01:15:00+00:00",
       "score": 57,
       "score_out_of": 100,
@@ -8303,7 +8306,7 @@
           "points": 12,
           "maximum": 20,
           "status": null,
-          "captured_utc": "2026-11-26T05:09:22.320224+00:00"
+          "captured_utc": "2026-11-26T20:14:29.633059+00:00"
         },
         "depth_chart": {
           "points": null,
@@ -8327,7 +8330,7 @@
       "player_id": "00-0026498",
       "player": "Matthew Stafford",
       "team": "LA",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-12-04T01:15:00+00:00",
       "score": 57,
       "score_out_of": 100,
@@ -8338,7 +8341,7 @@
           "points": 12,
           "maximum": 20,
           "status": null,
-          "captured_utc": "2026-11-26T05:09:22.320224+00:00"
+          "captured_utc": "2026-11-26T20:14:29.633059+00:00"
         },
         "depth_chart": {
           "points": null,
@@ -8362,7 +8365,7 @@
       "player_id": "00-0031345",
       "player": "Jimmy Garoppolo",
       "team": "LA",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-12-04T01:15:00+00:00",
       "score": null,
       "score_out_of": 100,
@@ -8394,7 +8397,7 @@
       "player_id": "00-0033873",
       "player": "Patrick Mahomes",
       "team": "KC",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-12-04T01:15:00+00:00",
       "score": 57,
       "score_out_of": 100,
@@ -8405,7 +8408,7 @@
           "points": 12,
           "maximum": 20,
           "status": null,
-          "captured_utc": "2026-11-26T05:09:22.320224+00:00"
+          "captured_utc": "2026-11-26T20:14:29.633059+00:00"
         },
         "depth_chart": {
           "points": null,
@@ -8429,7 +8432,7 @@
       "player_id": "00-0036945",
       "player": "Justin Fields",
       "team": "KC",
-      "forecast_created_utc": "2026-11-26T05:09:28.170723+00:00",
+      "forecast_created_utc": "2026-11-26T20:14:45.033184+00:00",
       "kickoff_utc": "2026-12-04T01:15:00+00:00",
       "score": 12,
       "score_out_of": 100,
@@ -8440,7 +8443,7 @@
           "points": 12,
           "maximum": 20,
           "status": null,
-          "captured_utc": "2026-11-26T05:09:22.320224+00:00"
+          "captured_utc": "2026-11-26T20:14:29.633059+00:00"
         },
         "depth_chart": {
           "points": null,
