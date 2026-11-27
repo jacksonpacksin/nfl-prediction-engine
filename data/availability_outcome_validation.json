@@ -1,7 +1,7 @@
 {
   "status": "INSUFFICIENT_PROSPECTIVE_DATA",
-  "known_outcomes": 30,
-  "unknown_outcomes": 107,
+  "known_outcomes": 31,
+  "unknown_outcomes": 109,
   "bins": [
     {
       "band": "LOW",
@@ -10,7 +10,7 @@
     },
     {
       "band": "MID",
-      "n": 27,
+      "n": 28,
       "passing_activity_rate": 1.0
     },
     {
@@ -21,7 +21,7 @@
   ],
   "monotonic_observed_rates": null,
   "warning": "Passing activity is not confirmed starting status. Missing player rows are UNKNOWN. Selection bias and score calibration remain untested.",
-  "generated_utc": "2026-11-27T05:07:07.175480+00:00",
+  "generated_utc": "2026-11-27T20:02:26.617434+00:00",
   "frozen_player_games": 252,
   "newly_frozen": 0,
   "records": [
@@ -1847,8 +1847,8 @@
       "score": 45,
       "label": "INSUFFICIENT_EVIDENCE",
       "evidence_coverage_weight": 45,
-      "outcome": null,
-      "outcome_status": "UNKNOWN_NO_PLAYER_GAME_STAT",
+      "outcome": 1,
+      "outcome_status": "OBSERVED_PASS_ATTEMPT",
       "outcome_definition": "At least one recorded NFL passing attempt; NOT official start"
     },
     {
@@ -1891,6 +1891,72 @@
       "score": 45,
       "label": "INSUFFICIENT_EVIDENCE",
       "evidence_coverage_weight": 45,
+      "outcome": 1,
+      "outcome_status": "OBSERVED_PASS_ATTEMPT",
+      "outcome_definition": "At least one recorded NFL passing attempt; NOT official start"
+    },
+    {
+      "game_id": "2026_12_KC_BUF",
+      "player_id": "00-0034857",
+      "forecast_created_utc": "2026-11-19T04:15:00.701413+00:00",
+      "score": 45,
+      "label": "INSUFFICIENT_EVIDENCE",
+      "evidence_coverage_weight": 45,
+      "outcome": 1,
+      "outcome_status": "OBSERVED_PASS_ATTEMPT",
+      "outcome_definition": "At least one recorded NFL passing attempt; NOT official start"
+    },
+    {
+      "game_id": "2026_12_KC_BUF",
+      "player_id": "00-0033869",
+      "forecast_created_utc": "2026-11-19T04:15:00.701413+00:00",
+      "score": null,
+      "label": "INSUFFICIENT_EVIDENCE",
+      "evidence_coverage_weight": 0,
+      "outcome": null,
+      "outcome_status": "UNKNOWN_NO_PLAYER_GAME_STAT",
+      "outcome_definition": "At least one recorded NFL passing attempt; NOT official start"
+    },
+    {
+      "game_id": "2026_12_KC_BUF",
+      "player_id": "00-0034401",
+      "forecast_created_utc": "2026-11-19T04:15:00.701413+00:00",
+      "score": null,
+      "label": "INSUFFICIENT_EVIDENCE",
+      "evidence_coverage_weight": 0,
+      "outcome": null,
+      "outcome_status": "UNKNOWN_NO_PLAYER_GAME_STAT",
+      "outcome_definition": "At least one recorded NFL passing attempt; NOT official start"
+    },
+    {
+      "game_id": "2026_12_KC_BUF",
+      "player_id": "00-0034577",
+      "forecast_created_utc": "2026-11-19T04:15:00.701413+00:00",
+      "score": 0,
+      "label": "INSUFFICIENT_EVIDENCE",
+      "evidence_coverage_weight": 45,
+      "outcome": null,
+      "outcome_status": "UNKNOWN_NO_PLAYER_GAME_STAT",
+      "outcome_definition": "At least one recorded NFL passing attempt; NOT official start"
+    },
+    {
+      "game_id": "2026_12_KC_BUF",
+      "player_id": "00-0033873",
+      "forecast_created_utc": "2026-11-19T04:15:00.701413+00:00",
+      "score": 57,
+      "label": "MIXED_INDICATORS",
+      "evidence_coverage_weight": 65,
+      "outcome": 1,
+      "outcome_status": "OBSERVED_PASS_ATTEMPT",
+      "outcome_definition": "At least one recorded NFL passing attempt; NOT official start"
+    },
+    {
+      "game_id": "2026_12_KC_BUF",
+      "player_id": "00-0036945",
+      "forecast_created_utc": "2026-11-19T04:15:00.701413+00:00",
+      "score": 12,
+      "label": "WEAK_INDICATORS",
+      "evidence_coverage_weight": 65,
       "outcome": null,
       "outcome_status": "UNKNOWN_NO_PLAYER_GAME_STAT",
       "outcome_definition": "At least one recorded NFL passing attempt; NOT official start"
