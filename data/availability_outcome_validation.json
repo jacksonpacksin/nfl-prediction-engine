@@ -1,7 +1,7 @@
 {
   "status": "INSUFFICIENT_PROSPECTIVE_DATA",
   "known_outcomes": 31,
-  "unknown_outcomes": 109,
+  "unknown_outcomes": 113,
   "bins": [
     {
       "band": "LOW",
@@ -21,7 +21,7 @@
   ],
   "monotonic_observed_rates": null,
   "warning": "Passing activity is not confirmed starting status. Missing player rows are UNKNOWN. Selection bias and score calibration remain untested.",
-  "generated_utc": "2026-11-27T20:02:26.617434+00:00",
+  "generated_utc": "2026-11-28T04:46:52.236044+00:00",
   "frozen_player_games": 252,
   "newly_frozen": 0,
   "records": [
@@ -1957,6 +1957,50 @@
       "score": 12,
       "label": "WEAK_INDICATORS",
       "evidence_coverage_weight": 65,
+      "outcome": null,
+      "outcome_status": "UNKNOWN_NO_PLAYER_GAME_STAT",
+      "outcome_definition": "At least one recorded NFL passing attempt; NOT official start"
+    },
+    {
+      "game_id": "2026_12_DEN_PIT",
+      "player_id": "00-0023459",
+      "forecast_created_utc": "2026-11-20T04:02:06.518853+00:00",
+      "score": 45,
+      "label": "INSUFFICIENT_EVIDENCE",
+      "evidence_coverage_weight": 45,
+      "outcome": null,
+      "outcome_status": "UNKNOWN_NO_PLAYER_GAME_STAT",
+      "outcome_definition": "At least one recorded NFL passing attempt; NOT official start"
+    },
+    {
+      "game_id": "2026_12_DEN_PIT",
+      "player_id": "00-0034771",
+      "forecast_created_utc": "2026-11-20T04:02:06.518853+00:00",
+      "score": 0,
+      "label": "INSUFFICIENT_EVIDENCE",
+      "evidence_coverage_weight": 45,
+      "outcome": null,
+      "outcome_status": "UNKNOWN_NO_PLAYER_GAME_STAT",
+      "outcome_definition": "At least one recorded NFL passing attempt; NOT official start"
+    },
+    {
+      "game_id": "2026_12_DEN_PIT",
+      "player_id": "00-0035264",
+      "forecast_created_utc": "2026-11-20T04:02:06.518853+00:00",
+      "score": null,
+      "label": "INSUFFICIENT_EVIDENCE",
+      "evidence_coverage_weight": 0,
+      "outcome": null,
+      "outcome_status": "UNKNOWN_NO_PLAYER_GAME_STAT",
+      "outcome_definition": "At least one recorded NFL passing attempt; NOT official start"
+    },
+    {
+      "game_id": "2026_12_DEN_PIT",
+      "player_id": "00-0039732",
+      "forecast_created_utc": "2026-11-20T04:02:06.518853+00:00",
+      "score": 45,
+      "label": "INSUFFICIENT_EVIDENCE",
+      "evidence_coverage_weight": 45,
       "outcome": null,
       "outcome_status": "UNKNOWN_NO_PLAYER_GAME_STAT",
       "outcome_definition": "At least one recorded NFL passing attempt; NOT official start"
